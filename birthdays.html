@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <script src="./public/js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <title>Locutor de Aniversários • Jasper Bot Website</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+<script>
+    $(function () {
+        $("#header").load("./public/header.html");
+        $("#footer").load("./public/footer.html");
+    });
+</script>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/birthdays.png" alt="Header Birthdays" class="logo">
+
+        <div class="subtitle">
+            ∎ <b>Locutor de Aniversários</b> é minha função especial pra anunciar o aniversário dos membros do seu
+            servidor quando chegar a hora. Bem direto ao ponto, né?
+            <br><br>
+            Os membros precisam ter registrado os aniversários com o comando <span class="command">/birthday
+                register</span> antes de eu poder anunciar.
+            <br><br>
+            ∎ Configurar essa funcionalidade é algo restrito aos membros do servidor com permissão de
+            <b>Administrador</b>.
+            <br><br>
+            ∎ Segue um pequeno tutorial de como configurá-lo:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Use o comando <span class="command">/config birthday</span>, escolha o canal de texto onde quer
+            que os aniversários apareçam, e configure as opções adicionais se quiser: cargo de
+            aniversariante, cargo de menção, e uma mensagem personalizada.
+            <br><br>
+            Se você não colocar nenhuma mensagem personalizada, vou usar frases aleatórias pré-definidas em suas
+            mensagens. É até mais legal, né?
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/birthdays_1.png">
+            <br>
+            <b>2.</b> Depois de usar o comando e eu confirmar que deu tudo certo, a função já vai estar ativada no
+            servidor!
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/birthdays_2.png">
+            <br>
+            <b>3.</b> Prontinho! Agora é apenas aguardar até que algum membro do seu servidor faça aniversário. Os
+            aniversários são sempre anunciados à meia-noite do horário de Brasília.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/birthdays_3.png">
+            <br>
+            <b>4.</b> Para editar as configurações, basta usar o comando <span class="command">/config birthday</span>
+            novamente. Para desabilitar, use o comando
+            <span class="command">/config server</span> e selecione o botão.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/birthdays_4.gif">
+            <br>
+            <b>5.</b> Ah, e não esquece de lembrar o pessoal de registrar a data de aniversário com <span
+                class="command">/birthday register</span>. Cada membro só pode alterar a data a cada <b>180 dias</b>,
+            então é bom pensar duas vezes antes de mandar qualquer coisa errada.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/birthdays_5.png">
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ∎ Espero que você se aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/VpsV5t4KWz">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">9 de novembro de 2024</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer" style="margin-top: 140px;"></div>
+</body>
+
+</html>

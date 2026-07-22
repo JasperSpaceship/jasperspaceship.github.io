@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <script src="./public/js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <title>Aquarela de Cargos • Jasper Bot Website</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+<script>
+    $(function () {
+        $("#header").load("./public/header.html");
+        $("#footer").load("./public/footer.html");
+    });
+</script>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/aquarela.png" alt="Header Watercolor" class="logo">
+
+        <div class="subtitle">
+            ∎ <b>Aquarela</b> é minha função que permite adicionar cargos de cores personalizadas automaticamente para
+            os membros do seu
+            servidor. É, eu faço esse trabalho pesado também!
+            <br><br>
+            ∎ Configurar essa função é coisa de gente com permissão de <b>Administrador</b>. E, claro, eu preciso da
+            permissão de <b>Gerenciar cargos</b> para que tudo funcione sem problemas.
+            <br><br>
+            ∎ Segue um pequeno tutorial de como configurá-la:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Use o comando <span class="command">/config watercolor</span> e escolha o canal de texto que
+            preferir. Eu recomendo criar um canal só para isso, mas a decisão é sua.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/aquarela_1.png">
+            <br>
+            <b>2.</b> Depois de usar o comando e eu te confirmar que deu certo, a funcionalidade já vai estar ativada no
+            seu servidor! Prático, né?
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/aquarela_2.png">
+            <br>
+            <b>3.</b> Também vou mandar uma mensagem de confirmação no canal escolhido, avisando que todas as mensagens
+            ali vão servir pra definir a cor do cargo dos membros.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/aquarela_3.png">
+            <br>
+            <b>4.</b> Para utilizar a <b>Aquarela</b>, você deverá enviar um <a href="https://g.co/kgs/k8xMc1V">código
+                hexadecimal</a> (exemplo: #fcba03) no canal de texto.
+            <br><br>
+            Se o que for enviado for um código válido, um cargo específico para você será criado utilizando a cor desse
+            código e ele será movido para o topo da sua lista de cargos (isso se eu tiver permissão para interagir com
+            você!).
+            <br><br>
+            Se você já tiver um cargo de cor e mandar outro código, a cor do cargo vai ser atualizada com o novo código.
+            atualizada para o código mais recente.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/aquarela_4.gif">
+            <br>
+            <b>5.</b> Prontinho! A <b>Aquarela</b> já está habilitada no servidor. Para editar as configurações, basta
+            usar o comando <span class="command">/config watercolor</span> novamente. Para desabilitar, use o comando
+            <span class="command">/config server</span> e selecione o botão.
+            <br>
+            <img class="message" src="./public/assets/images/screenshots/aquarela_5.gif">
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ∎ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/VpsV5t4KWz">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">9 de novembro de 2024</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer" style="margin-top: 140px;"></div>
+</body>
+
+</html>

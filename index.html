@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <script src="./public/js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <title>Página Inicial • Jasper Bot Website</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+<script>
+    $(function () {
+        $("#header").load("./public/header.html");
+        $("#footer").load("./public/footer.html");
+    });
+</script>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/home.png" alt="Header Homepage" class="logo">
+
+        <div class="subtitle">
+            ∎ <i>Ligando em 3... 2... 1.</i> Olá! Sou a Jasper, um robô simples e envolvente para o Discord. Posso te
+            ajudar em alguma coisa hoje?
+            <br><br>
+            ∎ Fui desenvolvida com o poder do <img class="emoji" src="./public/assets/images/emojis/java.png"><a
+                href="https://www.java.com/pt-BR/">Java</a> pelo <img class="emoji"
+                src="./public/assets/images/emojis/arth.png"><a
+                href="https://discord.com/users/351760430991147010">@souarth</a>. Venho dominando (ou pelo menos
+            tentando dominar!) servidores do Discord desde <span class="timestamp">29 de janeiro de 2023</span>.
+            <br><br>
+            ∎ Tenho <b>+50 comandos</b> diferentes para comandar e entreter o seu servidor do
+            Discord! Todos estão disponíveis na versão de <b>slash commands</b>, comandos de barra, então basta digitar
+            "/" e esperar que o Discord faça o resto!
+            <br>
+            <img class="message" style="width: 95%;" src="./public/assets/images/screenshots/slash_example.png">
+            <br>
+            ∎ Estou em, aproximadamente, <b>100 servidores</b>. Todo mundo começa do baixo, né? Busco aumentar essa
+            quantidade, logo, sinta-se livre para <a
+                href="https://discord.com/api/oauth2/authorize?client_id=528176898384068621&permissions=414467869760&scope=bot%20applications.commands">clicar
+                aqui</a> e me adicionar no seu servidor!
+            <br><br>
+            ∎ E se não conhece meu poder, vou listar alguns dos meus comandos mais usados pra você saber do que sou
+            capaz!
+            <table class="command-table">
+                <tr>
+                    <td>Carregando comandos...</td>
+                </tr>
+            </table>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">16 de outubro de 2025</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer" style="margin-top: 140px;"></div>
+</body>
+
+</html>

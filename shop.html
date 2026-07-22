@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+    <title>Lojinha • Jasper Bot Website</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $("#header").load("./public/header.html");
+        $("#footer").load("./public/footer.html");
+    });
+</script>
+
+<body>
+    <header id="header"></header>
+
+    <div id="container" class="container">
+        <img src="./public/assets/images/headers/shop.png" alt="Header Shop" class="logo">
+
+        <div class="subtitle">
+            ∎ Confira todos os itens disponíveis para gastar seus quartzos e deixe seu
+            <span class="command">/profile</span> a sua cara!
+            <br><br>
+            ∎ Aperte o botão do tipo de item desejado e <b>CLIQUE NO ITEM</b> para copiar o comando de compra.
+        </div>
+
+        <div class="button-container">
+            <button class="button" id="btnColors" onclick="loadColors()">Cores</button>
+            <button class="button" id="btnBanners" onclick="loadBanners()">Banners</button>
+            <button class="button" id="btnTitles" onclick="loadTitles()">Títulos</button>
+            <button class="button" id="btnPins" onclick="loadPins()">Emblemas</button>
+        </div>
+
+        <div class="sort-container">
+            <select id="sort" onchange="sortItems()">
+                <option value="price">Ordem de Preço</option>
+                <option value="alphabetical">Ordem Alfabética (Nome)</option>
+                <option value="collection">Ordem Alfabética (Coleção)</option>
+            </select>
+        </div>
+
+        <div id="shop"></div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="./public/js/index.js"></script>
+</body>
+
+</html>

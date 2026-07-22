@@ -1,0 +1,452 @@
+{
+    "rows": [
+        [
+            201,
+            "Protesto",
+            "<:protesto:1049851201379897424>",
+            500,
+            "9",
+            "https:\/\/cdn.discordapp.com\/emojis\/1049851201379897424.png"
+        ],
+        [
+            202,
+            "Concordo",
+            "<:badge_concordo:1076564961834315937>",
+            500,
+            "9",
+            "https:\/\/cdn.discordapp.com\/emojis\/1076564961834315937.png"
+        ],
+        [
+            203,
+            "JoJo Menacing",
+            "<:badge_jojo:1076566149547966475>",
+            750,
+            "8",
+            "https:\/\/cdn.discordapp.com\/emojis\/1076566149547966475.png"
+        ],
+        [
+            204,
+            "Real Sigma",
+            "<:badge_sigma:1076566531229626429>",
+            500,
+            "13",
+            "https:\/\/cdn.discordapp.com\/emojis\/1076566531229626429.png"
+        ],
+        [
+            205,
+            "LGBT+ Flag",
+            "<:badge_lgbt:1078090946777980948>",
+            1000,
+            "12",
+            "https:\/\/cdn.discordapp.com\/emojis\/1078090946777980948.png"
+        ],
+        [
+            206,
+            "Alien Dance",
+            "<a:badge_alien:1078091948851724288>",
+            1500,
+            "13",
+            "https:\/\/cdn.discordapp.com\/emojis\/1078091948851724288.gif"
+        ],
+        [
+            207,
+            "Hammer & Sickle",
+            "<:badge_communism:1078108090605502515>",
+            500,
+            "12",
+            "https:\/\/cdn.discordapp.com\/emojis\/1078108090605502515.png"
+        ],
+        [
+            208,
+            "Among Ass",
+            "<a:badge_sussy:1079105372113076234>",
+            1500,
+            "14",
+            "https:\/\/cdn.discordapp.com\/emojis\/1079105372113076234.gif"
+        ],
+        [
+            209,
+            "Steven's Star",
+            "<:badge_star:1186394184744190012>",
+            2000,
+            "1",
+            "https:\/\/cdn.discordapp.com\/emojis\/1186394184744190012.png"
+        ],
+        [
+            210,
+            "Escudo do Red Bull Brangantino",
+            "<:jasper_pin_bragantino:1243777716595982447>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777716595982447.png"
+        ],
+        [
+            211,
+            "Escudo do Grêmio",
+            "<:jasper_pin_gremio:1243777254857773167>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777254857773167.png"
+        ],
+        [
+            212,
+            "Escudo do Cruzeiro",
+            "<:jasper_pin_cruzeiro:1243777264961978368>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777264961978368.png"
+        ],
+        [
+            213,
+            "Escudo do Flamengo",
+            "<:jasper_pin_flamengo:1243777250453622895>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777250453622895.png"
+        ],
+        [
+            214,
+            "Escudo do Vasco",
+            "<:jasper_pin_vasco:1243777248041898024>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777248041898024.png"
+        ],
+        [
+            215,
+            "Escudo do Corinthians",
+            "<:jasper_pin_corinthians:1243777252827861033>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777252827861033.png"
+        ],
+        [
+            216,
+            "Escudo do Atlético - MG",
+            "<:jasper_pin_atleticomg:1243777257198325791>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777257198325791.png"
+        ],
+        [
+            217,
+            "Escudo do Internacional",
+            "<:jasper_pin_inter:1243777246070702181>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777246070702181.png"
+        ],
+        [
+            218,
+            "Escudo do Palmeiras",
+            "<:jasper_pin_palmeiras:1243777721096470689>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777721096470689.png"
+        ],
+        [
+            219,
+            "Escudo do Fluminense",
+            "<:jasper_pin_fluminense:1243777719200780388>",
+            1000,
+            "7",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243777719200780388.png"
+        ],
+        [
+            220,
+            "Dragon's Left Wing",
+            "<:jasper_dragon_left_pin:1243994853302603786>",
+            750,
+            "20",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243994853302603786.png"
+        ],
+        [
+            221,
+            "Dragon's Right Wing",
+            "<:jasper_dragon_right_pin:1243994758460735584>",
+            750,
+            "20",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243994758460735584.png"
+        ],
+        [
+            222,
+            "Angel's Left Wing",
+            "<:jasper_angel_left_pin:1243995680104517824>",
+            750,
+            "21",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243995680104517824.png"
+        ],
+        [
+            223,
+            "Angel's Right Wing",
+            "<:jasper_angel_right_pin:1243995727051620552>",
+            750,
+            "21",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243995727051620552.png"
+        ],
+        [
+            224,
+            "Halo",
+            "<:jasper_halo_pin:1243995645455503460>",
+            750,
+            "21",
+            "https:\/\/cdn.discordapp.com\/emojis\/1243995645455503460.png"
+        ],
+        [
+            225,
+            "Headstone",
+            "<:jasper_headstone_pin:1244001131659530372>",
+            750,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244001131659530372.png"
+        ],
+        [
+            226,
+            "Black Stars",
+            "<:jasper_black_stars_pin:1244000084161466469>",
+            750,
+            "23",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000084161466469.png"
+        ],
+        [
+            227,
+            "Spell Book",
+            "<:jasper_spell_book_pin:1244001001137115236>",
+            1000,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244001001137115236.png"
+        ],
+        [
+            228,
+            "Black Cats",
+            "<:jasper_black_cats_pin:1244000676141600808>",
+            1500,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000676141600808.png"
+        ],
+        [
+            229,
+            "Halloween Moon",
+            "<:jasper_halloween_moon_pin:1244000723751010414>",
+            1000,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000723751010414.png"
+        ],
+        [
+            230,
+            "Purple Moon",
+            "<:jasper_purple_moon_pin:1244000778323230872>",
+            750,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000778323230872.png"
+        ],
+        [
+            231,
+            "Spider Web",
+            "<:jasper_web_pin:1244001211825524868>",
+            750,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244001211825524868.png"
+        ],
+        [
+            232,
+            "Halloween Candies",
+            "<:jasper_candies_pin:1244001244352348311>",
+            750,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244001244352348311.png"
+        ],
+        [
+            233,
+            "Black Kiss",
+            "<:jasper_black_kiss_pin:1244000162502676580>",
+            500,
+            "23",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000162502676580.png"
+        ],
+        [
+            234,
+            "Ghost Pumpkin",
+            "<:jasper_ghost_pump_pin:1244001280460853360>",
+            1500,
+            "22",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244001280460853360.png"
+        ],
+        [
+            235,
+            "The Reaper",
+            "<:jasper_reaper_pin:1244000015366750230>",
+            1000,
+            "23",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244000015366750230.png"
+        ],
+        [
+            236,
+            "Shuriken",
+            "<:jasper_shuriken_pin:1244002869212876895>",
+            500,
+            "24",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244002869212876895.png"
+        ],
+        [
+            237,
+            "Lock",
+            "<:jasper_lock_pin:1244002895339192463>",
+            500,
+            "24",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244002895339192463.png"
+        ],
+        [
+            238,
+            "Sunflower",
+            "<:jasper_sunflower_pin:1244003247899934792>",
+            1000,
+            "25",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244003247899934792.png"
+        ],
+        [
+            239,
+            "Shooting Star",
+            "<:jasper_shooting_star_pin:1244003283815628940>",
+            750,
+            "25",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244003283815628940.png"
+        ],
+        [
+            240,
+            "Fire Type",
+            "<:jasper_pokemon_fire_pin:1244003848574472232>",
+            750,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244003848574472232.png"
+        ],
+        [
+            241,
+            "Fighting Type",
+            "<:jasper_pokemon_fighting_pin:1244004253798764644>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004253798764644.png"
+        ],
+        [
+            242,
+            "Eletric Type",
+            "<:jasper_pokemon_eletric_pin:1244004324305141841>",
+            750,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004324305141841.png"
+        ],
+        [
+            243,
+            "Dragon Type",
+            "<:jasper_pokemon_dragon_pin:1244004449530151053>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004449530151053.png"
+        ],
+        [
+            244,
+            "Grass Type",
+            "<:jasper_pokemon_grass_pin:1244004572670722159>",
+            750,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004572670722159.png"
+        ],
+        [
+            245,
+            "Water Type",
+            "<:jasper_pokemon_water_pin:1244004613481299968>",
+            750,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004613481299968.png"
+        ],
+        [
+            246,
+            "Fairy Type",
+            "<:jasper_pokemon_fairy_pin:1244004689209458701>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004689209458701.png"
+        ],
+        [
+            247,
+            "Pshycic Type",
+            "<:jasper_pokemon_pshysic_pin:1244004801440780341>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004801440780341.png"
+        ],
+        [
+            248,
+            "Dark Type",
+            "<:jasper_pokemon_dark_pin:1244004856226910229>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244004856226910229.png"
+        ],
+        [
+            249,
+            "Akatsuki",
+            "<:jasper_akatsuki_pin:1244006178997014579>",
+            500,
+            "27",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244006178997014579.png"
+        ],
+        [
+            250,
+            "Pink Bow",
+            "<:jasper_pink_bow_pin:1244006622532075610>",
+            500,
+            "28",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244006622532075610.png"
+        ],
+        [
+            251,
+            "Pink Cloud",
+            "<:jasper_pink_cloud_pin:1244006536234406021>",
+            1000,
+            "28",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244006536234406021.png"
+        ],
+        [
+            252,
+            "Glow Heart",
+            "<:jasper_glow_heart_pin:1244006491149570160>",
+            750,
+            "28",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244006491149570160.png"
+        ],
+        [
+            253,
+            "Poke Ball",
+            "<:jasper_pokeball_pin:1244007246015365120>",
+            500,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244007246015365120.png"
+        ],
+        [
+            254,
+            "Great Ball",
+            "<:jasper_greatball_pin:1244007320573317166>",
+            750,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244007320573317166.png"
+        ],
+        [
+            255,
+            "Ultra Ball",
+            "<:jasper_ultraball_pin:1244007368602161299>",
+            1000,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244007368602161299.png"
+        ],
+        [
+            256,
+            "Master Ball",
+            "<:jasper_masterball_pin:1244007282132517008>",
+            1250,
+            "26",
+            "https:\/\/cdn.discordapp.com\/emojis\/1244007282132517008.png"
+        ]
+    ]
+}

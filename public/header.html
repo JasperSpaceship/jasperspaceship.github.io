@@ -1,0 +1,28 @@
+<header class="navbar">
+    <div class="navbar-left">
+        <img src="./public/assets/images/logo/minimalist.png" alt="Minimalist Logo" class="logo">
+        <span class="menu-icon" id="menuIcon" onclick="toggleSidebar()">☰</span>
+    </div>
+
+    <div class="navbar-right">
+        <a class="button"
+            href="https://discord.com/api/oauth2/authorize?client_id=528176898384068621&permissions=414467869760&scope=bot%20applications.commands"
+            target="_blank">+ Adicionar a Jasper</a>
+    </div>
+</header>
+
+<aside id="sidebar" class="sidebar">
+    <a href="./">Página Inicial</a>
+    <a href="./shop">Lojinha</a>
+    <a href="./idle">Idle Diamond Simulator</a>
+    <a href="./aquarela">Aquarela de Cargos</a>
+    <a href="./birthdays">Locutor de Aniversários</a>
+    <a href="./privacy-policy">Política de Privacidade</a>
+    <a href="./thanks">Créditos & Agradecimentos</a>
+</aside>
+
+<script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("open");
+    }
+</script>
