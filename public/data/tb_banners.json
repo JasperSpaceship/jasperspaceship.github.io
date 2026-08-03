@@ -1,375 +1,424 @@
 {
-    "rows": [
-        [
-            301,
-            "Rose’s Scabbard",
-            "https:\/\/i.ibb.co\/3dNCPF2\/78Y7Ftq.png",
-            1000,
-            "1"
-        ],
-        [
-            302,
-            "The Crystal Temple",
-            "https:\/\/i.ibb.co\/WVr4yn0\/pVMDiIr.png",
-            1000,
-            "1"
-        ],
-        [
-            303,
-            "Pink Sky",
-            "https:\/\/i.ibb.co\/yyc0JH3\/69QAnwo.png",
-            1000,
-            "1"
-        ],
-        [
-            304,
-            "Leaving Beach City",
-            "https:\/\/i.ibb.co\/kG969x4\/Twyo3p5.png",
-            1000,
-            "1"
-        ],
-        [
-            305,
-            "LGBT+ Stairs",
-            "https:\/\/i.ibb.co\/VMfj3cg\/banner-lgbt-stairs.png",
-            1250,
-            "2"
-        ],
-        [
-            306,
-            "Millwind Ranch",
-            "https:\/\/i.ibb.co\/g3y6wj7\/ventoinho-banner.png",
-            750,
-            "2"
-        ],
-        [
-            307,
-            "Minimalist Lapis Lazuli",
-            "https:\/\/i.ibb.co\/K2r7gvc\/lapis-banner.png",
-            750,
-            "10"
-        ],
-        [
-            308,
-            "Beyoncé - 16 Carriages",
-            "https:\/\/i.ibb.co\/4RcSshz\/16-carriages-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            309,
-            "JAY-Z - 4:44",
-            "https:\/\/i.ibb.co\/RhzPy1L\/444-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            310,
-            "Beyoncé - ACT I",
-            "https:\/\/i.ibb.co\/VQ4FHfr\/act1-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            311,
-            "Emicida - AmarElo",
-            "https:\/\/i.ibb.co\/qsxCLrz\/amarelo-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            312,
-            "Madonna - Celebration",
-            "https:\/\/i.ibb.co\/2PFLj12\/celebration-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            313,
-            "Twenty One Pilots - Clancy",
-            "https:\/\/i.ibb.co\/BgZ1zh2\/clancy-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            314,
-            "Beyoncé - ACT II",
-            "https:\/\/i.ibb.co\/YRyq47q\/cowboy-carter-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            315,
-            "SZA - CTRL",
-            "https:\/\/i.ibb.co\/xYBJQd1\/ctrl-banner.png\n",
-            1000,
-            "6"
-        ],
-        [
-            316,
-            "Ariana Grande - Eternal Sunshine",
-            "https:\/\/i.ibb.co\/z8bnKXv\/eternal-sunshine-banner.png\n",
-            1000,
-            "6"
-        ],
-        [
-            317,
-            "Anitta - Funk Generation",
-            "https:\/\/i.ibb.co\/vjqTYhQ\/funk-generation-banner.png\n",
-            750,
-            "6"
-        ],
-        [
-            318,
-            "Kanye West - Graduation",
-            "https:\/\/i.ibb.co\/1MXtg8v\/graduation-banner.png\n",
-            1000,
-            "6"
-        ],
-        [
-            319,
-            "Kanye West - My Beautiful Dark Twisted Fantasy",
-            "https:\/\/i.ibb.co\/bJGj3HQ\/kanye-banner.png",
-            1250,
-            "6"
-        ],
-        [
-            320,
-            "Beyoncé - Lemonade",
-            "https:\/\/i.ibb.co\/8z7tmmN\/lemonade-banner.png\n",
-            1250,
-            "6"
-        ],
-        [
-            321,
-            "Matuê - Máquina do Tempo",
-            "https:\/\/i.ibb.co\/N2nswXG\/maquina-do-tempo-banner.png\n",
-            1250,
-            "6"
-        ],
-        [
-            322,
-            "Kendrick Lamar - Mr. Morale & The Big Steppers",
-            "https:\/\/i.ibb.co\/NxzJRTB\/mr-morales-banner.png\n",
-            1000,
-            "6"
-        ],
-        [
-            323,
-            "Racionais MC's",
-            "https:\/\/i.ibb.co\/L9CvBmC\/racionais-banner.png\n",
-            1750,
-            "6"
-        ],
-        [
-            324,
-            "Dua Lipa - Radical Optimism #2",
-            "https:\/\/i.ibb.co\/ykzQRSX\/radical-optimism-banner.png\n",
-            1000,
-            "6"
-        ],
-        [
-            325,
-            "Beyoncé - Renaissance",
-            "https:\/\/i.ibb.co\/QmhbfzM\/renaissance-banner.png",
-            1500,
-            "6"
-        ],
-        [
-            326,
-            "Doja Cat - Scarlet",
-            "https:\/\/i.ibb.co\/nPtrJLx\/scarlet-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            327,
-            "SZA - SOS",
-            "https:\/\/i.ibb.co\/t2BGFCx\/sos-banner.png",
-            1250,
-            "6"
-        ],
-        [
-            328,
-            "Olivia Rodrigo - SOUR",
-            "https:\/\/i.ibb.co\/tHKrySW\/sour-banner.png",
-            1250,
-            "6"
-        ],
-        [
-            329,
-            "Katy Perry - Teenage Dream",
-            "https:\/\/i.ibb.co\/3kQBvHy\/teenage-dream-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            330,
-            "Travis Scott - UTOPIA",
-            "https:\/\/i.ibb.co\/yygGH6k\/utopia-banner.png",
-            1000,
-            "6"
-        ],
-        [
-            331,
-            "Marina Sena - Vício Inerente",
-            "https:\/\/i.ibb.co\/8sS2rGB\/vicio-inerente-banner.png",
-            750,
-            "6"
-        ],
-        [
-            332,
-            "Billie Eilish - When We All Fall Asleep, Where Do We Go?",
-            "https:\/\/i.ibb.co\/RQdT3Bh\/wwafawdwg-banner.png",
-            1250,
-            "6"
-        ],
-        [
-            333,
-            "Matuê - 333",
-            "https:\/\/i.ibb.co\/nCgfb0s\/333.png",
-            1250,
-            "6"
-        ],
-        [
-            334,
-            "Minimalist Garnet",
-            "https:\/\/i.ibb.co\/fHpJgBT\/garnet-banner.png\n",
-            750,
-            "10"
-        ],
-        [
-            335,
-            "Corinthians: Escudos",
-            "https:\/\/i.ibb.co\/T1z7QmV\/corinthians-banner.png\n",
-            1000,
-            "7"
-        ],
-        [
-            336,
-            "Pumpkin Scarecrow",
-            "https:\/\/i.ibb.co\/tLRn5JT\/espantalho-de-abobora-banner.png\n",
-            1000,
-            "2"
-        ],
-        [
-            337,
-            "LGBT+ Stairs #2",
-            "https:\/\/i.ibb.co\/7yZY0vR\/lgbt-stairs-2-banner.png\n",
-            1250,
-            "2"
-        ],
-        [
-            338,
-            "Cruzeiro: Matheus Pereira",
-            "https:\/\/i.ibb.co\/yXp5gMs\/matheus-pereira-banner.png\n",
-            1000,
-            "7"
-        ],
-        [
-            339,
-            "Flamengo: Mosaico",
-            "https:\/\/i.ibb.co\/PWsN9jx\/mosaico-flamengo-banner.png\n",
-            1000,
-            "7"
-        ],
-        [
-            340,
-            "Minimalist Pearl",
-            "https:\/\/i.ibb.co\/Ctz7g6C\/pearl-banner.png",
-            750,
-            "10"
-        ],
-        [
-            341,
-            "Minimalist Peridot",
-            "https:\/\/i.ibb.co\/xDd4pKX\/peridot-banner.png",
-            750,
-            "10"
-        ],
-        [
-            342,
-            "Vasco: Bandeira",
-            "https:\/\/i.ibb.co\/186Lrdv\/vasco-banner.png\n",
-            750,
-            "7"
-        ],
-        [
-            343,
-            "Jonathan Joestar",
-            "https:\/\/i.ibb.co\/2KdGxBB\/jonathan-banner.png\n",
-            1001,
-            "8"
-        ],
-        [
-            345,
-            "Joseph Joestar",
-            "https:\/\/i.ibb.co\/d4Q4N2Z\/joseph-banner.png\n",
-            1002,
-            "8"
-        ],
-        [
-            346,
-            "Jotaro Kujo",
-            "https:\/\/i.ibb.co\/qmz7nhg\/jotaro-banner.png\n",
-            1003,
-            "8"
-        ],
-        [
-            347,
-            "Josuke Higashikata",
-            "https:\/\/i.ibb.co\/WDnvWpP\/josuke-higashikata.png\n",
-            1004,
-            "8"
-        ],
-        [
-            348,
-            "Giorno Giovanna",
-            "https:\/\/i.ibb.co\/DLrjp8g\/giorno-giovanna.png",
-            1005,
-            "8"
-        ],
-        [
-            349,
-            "Jolyne Kujo",
-            "https:\/\/i.ibb.co\/dgZHQh3\/jolyne-kujo.png\n",
-            1006,
-            "8"
-        ],
-        [
-            350,
-            "Johnny Joestar",
-            "https:\/\/i.ibb.co\/26T01P5\/johnny-joestar.png\n",
-            1007,
-            "8"
-        ],
-        [
-            351,
-            "Tyler, The Creator - Flower Boy",
-            "https:\/\/i.ibb.co\/JnYvnrR\/flower-boy-banner.png\n",
-            1250,
-            "6"
-        ],
-        [
-            352,
-            "Dua Lipa - Radical Optimism",
-            "https:\/\/i.ibb.co\/S6XM1FR\/radical-optimism1-banner.png",
-            1250,
-            "6"
-        ],
-        [
-            354,
-            "Minimalist Amethyst",
-            "https:\/\/i.ibb.co\/MGDktfM\/amethyst-banner.png\n",
-            750,
-            "10"
-        ],
-        [
-            355,
-            "Chappell Roan - The Rise and Fall of a Midwest Princess",
-            "https:\/\/i.ibb.co\/1bYM9Ky\/355.png",
-            1250,
-            "6"
-        ]
+  "rows": [
+    [
+      301,
+      "Rose’s Scabbard",
+      "https:\/\/i.ibb.co\/3dNCPF2\/78Y7Ftq.png",
+      1000,
+      "1"
+    ],
+    [
+      302,
+      "The Crystal Temple",
+      "https:\/\/i.ibb.co\/WVr4yn0\/pVMDiIr.png",
+      1000,
+      "1"
+    ],
+    [
+      303,
+      "Pink Sky",
+      "https:\/\/i.ibb.co\/yyc0JH3\/69QAnwo.png",
+      1000,
+      "1"
+    ],
+    [
+      304,
+      "Leaving Beach City",
+      "https:\/\/i.ibb.co\/kG969x4\/Twyo3p5.png",
+      1000,
+      "1"
+    ],
+    [
+      305,
+      "LGBT+ Stairs",
+      "https:\/\/i.ibb.co\/VMfj3cg\/banner-lgbt-stairs.png\n",
+      1250,
+      "2"
+    ],
+    [
+      306,
+      "Millwind Ranch",
+      "https:\/\/i.ibb.co\/g3y6wj7\/ventoinho-banner.png",
+      750,
+      "2"
+    ],
+    [
+      307,
+      "Minimalist Lapis Lazuli",
+      "https:\/\/i.ibb.co\/K2r7gvc\/lapis-banner.png\n",
+      750,
+      "10"
+    ],
+    [
+      308,
+      "Beyoncé - 16 Carriages",
+      "https:\/\/i.ibb.co\/4RcSshz\/16-carriages-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      309,
+      "JAY-Z - 4:44",
+      "https:\/\/i.ibb.co\/RhzPy1L\/444-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      310,
+      "Beyoncé - ACT I",
+      "https:\/\/i.ibb.co\/VQ4FHfr\/act1-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      311,
+      "Emicida - AmarElo",
+      "https:\/\/i.ibb.co\/qsxCLrz\/amarelo-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      312,
+      "Madonna - Celebration",
+      "https:\/\/i.ibb.co\/2PFLj12\/celebration-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      313,
+      "Twenty One Pilots - Clancy",
+      "https:\/\/i.ibb.co\/BgZ1zh2\/clancy-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      314,
+      "Beyoncé - ACT II",
+      "https:\/\/i.ibb.co\/YRyq47q\/cowboy-carter-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      315,
+      "SZA - CTRL",
+      "https:\/\/i.ibb.co\/xYBJQd1\/ctrl-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      316,
+      "Ariana Grande - Eternal Sunshine",
+      "https:\/\/i.ibb.co\/z8bnKXv\/eternal-sunshine-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      317,
+      "Anitta - Funk Generation",
+      "https:\/\/i.ibb.co\/vjqTYhQ\/funk-generation-banner.png\n",
+      750,
+      "6"
+    ],
+    [
+      318,
+      "Kanye West - Graduation",
+      "https:\/\/i.ibb.co\/1MXtg8v\/graduation-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      319,
+      "Kanye West - My Beautiful Dark Twisted Fantasy",
+      "https:\/\/i.ibb.co\/bJGj3HQ\/kanye-banner.png",
+      1250,
+      "6"
+    ],
+    [
+      320,
+      "Beyoncé - Lemonade",
+      "https:\/\/i.ibb.co\/8z7tmmN\/lemonade-banner.png\n",
+      1250,
+      "6"
+    ],
+    [
+      321,
+      "Matuê - Máquina do Tempo",
+      "https:\/\/i.ibb.co\/N2nswXG\/maquina-do-tempo-banner.png\n",
+      1250,
+      "6"
+    ],
+    [
+      322,
+      "Kendrick Lamar - Mr. Morale & The Big Steppers",
+      "https:\/\/i.ibb.co\/NxzJRTB\/mr-morales-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      323,
+      "Racionais MC's",
+      "https:\/\/i.ibb.co\/L9CvBmC\/racionais-banner.png\n",
+      1750,
+      "6"
+    ],
+    [
+      324,
+      "Dua Lipa - Radical Optimism #2",
+      "https:\/\/i.ibb.co\/ykzQRSX\/radical-optimism-banner.png\n",
+      1000,
+      "6"
+    ],
+    [
+      325,
+      "Beyoncé - Renaissance",
+      "https:\/\/i.ibb.co\/QmhbfzM\/renaissance-banner.png",
+      1500,
+      "6"
+    ],
+    [
+      326,
+      "Doja Cat - Scarlet",
+      "https:\/\/i.ibb.co\/nPtrJLx\/scarlet-banner.png",
+      1000,
+      "6"
+    ],
+    [
+      327,
+      "SZA - SOS",
+      "https:\/\/i.ibb.co\/t2BGFCx\/sos-banner.png",
+      1250,
+      "6"
+    ],
+    [
+      328,
+      "Olivia Rodrigo - SOUR",
+      "https:\/\/i.ibb.co\/tHKrySW\/sour-banner.png",
+      1250,
+      "6"
+    ],
+    [
+      329,
+      "Katy Perry - Teenage Dream",
+      "https:\/\/i.ibb.co\/3kQBvHy\/teenage-dream-banner.png",
+      1000,
+      "6"
+    ],
+    [
+      330,
+      "Travis Scott - UTOPIA",
+      "https:\/\/i.ibb.co\/yygGH6k\/utopia-banner.png",
+      1000,
+      "6"
+    ],
+    [
+      331,
+      "Marina Sena - Vício Inerente",
+      "https:\/\/i.ibb.co\/8sS2rGB\/vicio-inerente-banner.png",
+      750,
+      "6"
+    ],
+    [
+      332,
+      "Billie Eilish - When We All Fall Asleep, Where Do We Go?",
+      "https:\/\/i.ibb.co\/RQdT3Bh\/wwafawdwg-banner.png",
+      1250,
+      "6"
+    ],
+    [
+      333,
+      "Matuê - 333",
+      "https:\/\/i.ibb.co\/nCgfb0s\/333.png",
+      1250,
+      "6"
+    ],
+    [
+      334,
+      "Minimalist Garnet",
+      "https:\/\/i.ibb.co\/fHpJgBT\/garnet-banner.png\n",
+      750,
+      "10"
+    ],
+    [
+      335,
+      "Corinthians: Escudos",
+      "https:\/\/i.ibb.co\/T1z7QmV\/corinthians-banner.png\n",
+      1000,
+      "7"
+    ],
+    [
+      336,
+      "Pumpkin Scarecrow",
+      "https:\/\/i.ibb.co\/tLRn5JT\/espantalho-de-abobora-banner.png\n",
+      1000,
+      "2"
+    ],
+    [
+      337,
+      "LGBT+ Stairs #2",
+      "https:\/\/i.ibb.co\/7yZY0vR\/lgbt-stairs-2-banner.png\n",
+      1250,
+      "2"
+    ],
+    [
+      338,
+      "Cruzeiro: Matheus Pereira",
+      "https:\/\/i.ibb.co\/yXp5gMs\/matheus-pereira-banner.png\n",
+      1000,
+      "7"
+    ],
+    [
+      339,
+      "Flamengo: Mosaico",
+      "https:\/\/i.ibb.co\/PWsN9jx\/mosaico-flamengo-banner.png\n",
+      1000,
+      "7"
+    ],
+    [
+      340,
+      "Minimalist Pearl",
+      "https:\/\/i.ibb.co\/Ctz7g6C\/pearl-banner.png",
+      750,
+      "10"
+    ],
+    [
+      341,
+      "Minimalist Peridot",
+      "https:\/\/i.ibb.co\/xDd4pKX\/peridot-banner.png",
+      750,
+      "10"
+    ],
+    [
+      342,
+      "Vasco: Bandeira",
+      "https:\/\/i.ibb.co\/186Lrdv\/vasco-banner.png\n",
+      750,
+      "7"
+    ],
+    [
+      343,
+      "Jonathan Joestar",
+      "https:\/\/i.ibb.co\/2KdGxBB\/jonathan-banner.png\n",
+      1001,
+      "8"
+    ],
+    [
+      345,
+      "Joseph Joestar",
+      "https:\/\/i.ibb.co\/d4Q4N2Z\/joseph-banner.png\n",
+      1002,
+      "8"
+    ],
+    [
+      346,
+      "Jotaro Kujo",
+      "https:\/\/i.ibb.co\/qmz7nhg\/jotaro-banner.png\n",
+      1003,
+      "8"
+    ],
+    [
+      347,
+      "Josuke Higashikata",
+      "https:\/\/i.ibb.co\/WDnvWpP\/josuke-higashikata.png\n",
+      1004,
+      "8"
+    ],
+    [
+      348,
+      "Giorno Giovanna",
+      "https:\/\/i.ibb.co\/DLrjp8g\/giorno-giovanna.png",
+      1005,
+      "8"
+    ],
+    [
+      349,
+      "Jolyne Kujo",
+      "https:\/\/i.ibb.co\/dgZHQh3\/jolyne-kujo.png\n",
+      1006,
+      "8"
+    ],
+    [
+      350,
+      "Johnny Joestar",
+      "https:\/\/i.ibb.co\/26T01P5\/johnny-joestar.png\n",
+      1007,
+      "8"
+    ],
+    [
+      351,
+      "Tyler, The Creator - Flower Boy",
+      "https:\/\/i.ibb.co\/JnYvnrR\/flower-boy-banner.png\n",
+      1250,
+      "6"
+    ],
+    [
+      352,
+      "Dua Lipa - Radical Optimism",
+      "https:\/\/i.ibb.co\/S6XM1FR\/radical-optimism1-banner.png",
+      1250,
+      "6"
+    ],
+    [
+      354,
+      "Minimalist Amethyst",
+      "https:\/\/i.ibb.co\/MGDktfM\/amethyst-banner.png\n",
+      750,
+      "10"
+    ],
+    [
+      355,
+      "Chappell Roan - The Rise and Fall of a Midwest Princess",
+      "https:\/\/i.ibb.co\/1bYM9Ky\/355.png",
+      1250,
+      "6"
+    ],
+    [
+      356,
+      "Olivia Rodrigo - You Seem Pretty Sad for a Girl So in Love",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530748701209923726\/148_Sem_Titulo_20260725221849.png?ex=6a71e912&is=6a709792&hm=e8f50ac4a69116cb3472df5ba70bd4a6d1857f7ddf672a35b64c049857d39b7a&",
+      1250,
+      "6"
+    ],
+    [
+      357,
+      "Marina Sena - Coisas Naturais",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530748715323752640\/148_Sem_Titulo_20260725222428.png?ex=6a71e915&is=6a709795&hm=cbfbb48beb55034564ed78101f2ca98fd5dbe2565ec67c404a31afb075ef8580&",
+      1250,
+      "6"
+    ],
+    [
+      358,
+      "Rosalía - LUX",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530748720562442321\/148_Sem_Titulo_20260725222626.png?ex=6a71e916&is=6a709796&hm=f4e6694a31977a93f84161c23297a35a8cf410a7cb67960e505214c75cfe2d14&",
+      1000,
+      "6"
+    ],
+    [
+      359,
+      "Sabrina Carpenter - Man's Best Friend",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530748726564618340\/148_Sem_Titulo_20260725222827.png?ex=6a71e918&is=6a709798&hm=d8f4ac427f62017652fd5331fe9170c6afe0de47ff9bf5d3acf6983023c7dda7&",
+      1000,
+      "6"
+    ],
+    [
+      360,
+      "Charli XCX - Music, Fashion, Film",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530749037324533851\/148_Sem_Titulo_20260725222954.png?ex=6a71e962&is=6a7097e2&hm=03eee4940aa9a6270bd2bd37fd3c067f22c67afe595f944e2b16205e7d287f6e&",
+      1250,
+      "6"
+    ],
+    [
+      361,
+      "Zara Larsson - Girls' Trip",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1530751157016727682\/148_Sem_Titulo_20260725223817.png?ex=6a71eb5b&is=6a7099db&hm=c9c45a3284ca3bc06f57fa707956eae9fec214f465c9aa5636fd066c5cc2ded5&",
+      750,
+      "6"
+    ],
+    [
+      362,
+      "Jão - Memórias Póstumas",
+      "https:\/\/cdn.discordapp.com\/attachments\/1530006855462424777\/1531090093098663986\/jasper_banner_20260726210502.png?ex=6a71d584&is=6a708404&hm=657b44b9f852de44b8a3fbefb8b8fc440f64494ca178c2443dd2643740f80c64&",
+      1000,
+      "6"
     ]
+  ]
 }
