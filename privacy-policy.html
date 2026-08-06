@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
-    <script src="./public/js/index.js"></script>
     <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
 
     <title>Política de Privacidade • Jasper Bot Website</title>
 </head>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-
-<script>
-    $(function () {
-        $("#header").load("./public/header.html");
-        $("#footer").load("./public/footer.html");
-    });
-</script>
 
 <body>
     <div id="header"></div>
@@ -42,15 +42,17 @@
             informações que podem ser armazenadas:
             <br>
             <br>
-            <li><b>Dados de execução de comandos:</b> São guardados o ID do autor do comando, o timestamp de
-                execução e
-                o ID do servidor onde o comando foi executado.</li>
-            <li><b>Timestamp da última mensagem enviada:</b> Utilizado exclusivamente para calcular o tempo entre
-                duas
-                mensagens e atribuir uma quantidade de XP adequada ao usuário.</li>
-            <li><b>Dados de servidores:</b> Informações como IDs de cargos e canais de texto necessários para
-                funcionalidades específicas, como o <a href="https://jasperthebot.github.io/birthdays">Locutor de
-                    Aniversários</a> e <a href="https://jasperthebot.github.io/aquarela">Aquarela de Cargos</a>.</li>
+            <ul>
+                <li><b>Dados de execução de comandos:</b> São guardados o ID do autor do comando, o timestamp de
+                    execução e
+                    o ID do servidor onde o comando foi executado.</li>
+                <li><b>Timestamp da última mensagem enviada:</b> Utilizado exclusivamente para calcular o tempo entre
+                    duas
+                    mensagens e atribuir uma quantidade de XP adequada ao usuário.</li>
+                <li><b>Dados de servidores:</b> Informações como IDs de cargos e canais de texto necessários para
+                    funcionalidades específicas, como o <a href="./birthdays">Locutor de
+                        Aniversários</a> e <a href="./aquarela">Aquarela de Cargos</a>.</li>
+            </ul>
             <br>
             <hr>
             <br>
@@ -58,19 +60,21 @@
             é restrito às finalidades específicas descritas
             <br>
             <br>
-            <li><b>Conteúdo de mensagens e comandos:</b> A Jasper não armazena o conteúdo das mensagens ou dos
-                comandos
-                executados. Não temos acesso ao conteúdo que você insere nas opções dos comandos, exceto em sistemas
-                onde isso é necessário, como o jogo de "Termo" e outras funcionalidades específicas.</li>
+            <ul>
+                <li><b>Conteúdo de mensagens e comandos:</b> A Jasper não armazena o conteúdo das mensagens ou dos
+                    comandos
+                    executados. Não temos acesso ao conteúdo que você insere nas opções dos comandos, exceto em sistemas
+                    onde isso é necessário, como o jogo de "Termo" e outras funcionalidades específicas.</li>
+            </ul>
             <br>
             <hr>
             <br>
-            Se houver dúvidas, <a href="https://discord.gg/pkc3tDMFdc">entre em meu servidor do Discord</a> para mais
+            Se houver dúvidas, <a href="https://discord.gg/MV4Qh9FhCR">entre em meu servidor do Discord</a> para mais
             esclarecimentos.
         </div>
     </div>
 
-    <div id="footer" style="margin-top: 140px;"></div>
+    <div id="footer"></div>
 </body>
 
 </html>

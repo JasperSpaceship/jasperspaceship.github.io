@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
-    <script src="./public/js/index.js"></script>
     <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
 
     <title>Locutor de Aniversários • Jasper Bot Website</title>
 </head>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-
-<script>
-    $(function () {
-        $("#header").load("./public/header.html");
-        $("#footer").load("./public/footer.html");
-    });
-</script>
 
 <body>
     <div id="header"></div>
@@ -51,35 +51,35 @@
             Se você não colocar nenhuma mensagem personalizada, vou usar frases aleatórias pré-definidas em suas
             mensagens. É até mais legal, né?
             <br>
-            <img class="message" src="./public/assets/images/screenshots/birthdays_1.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_1.png" alt="">
             <br>
             <b>2.</b> Depois de usar o comando e eu confirmar que deu tudo certo, a função já vai estar ativada no
             servidor!
             <br>
-            <img class="message" src="./public/assets/images/screenshots/birthdays_2.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_2.png" alt="">
             <br>
             <b>3.</b> Prontinho! Agora é apenas aguardar até que algum membro do seu servidor faça aniversário. Os
             aniversários são sempre anunciados à meia-noite do horário de Brasília.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/birthdays_3.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_3.png" alt="">
             <br>
             <b>4.</b> Para editar as configurações, basta usar o comando <span class="command">/config birthday</span>
             novamente. Para desabilitar, use o comando
             <span class="command">/config server</span> e selecione o botão.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/birthdays_4.gif">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_4.gif" alt="">
             <br>
             <b>5.</b> Ah, e não esquece de lembrar o pessoal de registrar a data de aniversário com <span
                 class="command">/birthday register</span>. Cada membro só pode alterar a data a cada <b>180 dias</b>,
             então é bom pensar duas vezes antes de mandar qualquer coisa errada.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/birthdays_5.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_5.png" alt="">
         </p>
         <hr>
         <div class="subtitle">
             <br>
             ∎ Espero que você se aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
-                href="https://discord.gg/VpsV5t4KWz">canal de suporte</a>.
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
             <br><br>
             <hr>
             <br>
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-    <div id="footer" style="margin-top: 140px;"></div>
+    <div id="footer"></div>
 </body>
 
-</html>
+</html>
