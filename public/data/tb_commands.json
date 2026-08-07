@@ -1,452 +1,389 @@
 {
     "rows": [
         [
-            1,
-            "07c15d48-83fc-4ae9-b29f-c8565e94f581",
-            "BirthdayCakeCommand",
-            "/birthday cake",
-            "Aniversário: Dê o seu primeiro pedaço de bolo a alguém especial no seu aniversário.",
-            32
-        ],
-        [
-            2,
-            "f6b7c821-9c82-4380-8410-de55be9942ff",
-            "BirthdayRegisterCommand",
-            "/birthday register",
-            "Aniversário: Cadastre seu aniversário no bot para que ele seja anunciado nos servidores.",
-            7
-        ],
-        [
-            3,
-            "f8142785-f0cd-4dc5-af34-62f9b96cd743",
-            "UserAvatarCommand",
-            "/avatar",
-            "Discord: Veja o avatar de um usuário.",
-            25
-        ],
-        [
-            4,
-            "55ea01a4-76ea-41a2-aef7-5c66581f6671",
-            "UserInfoCommand",
-            "/userinfo",
-            "Discord: Veja informações da conta de um usuário.",
-            37
-        ],
-        [
-            5,
-            "5bb616e4-b40a-4b06-9893-c606ae05ffe3",
-            "ItemBuyCommand",
-            "/item buy",
-            "Loja: Compre um item da lojinha utilizando seus quartzos.",
-            34
-        ],
-        [
-            6,
-            "68cba01e-435f-4b8b-9c23-ad2d87973fb2",
-            "ItemEquipCommand",
-            "/item equip",
-            "Social: Equipe um item do seu inventário.",
-            12
-        ],
-        [
-            7,
-            "d2b52d3f-1703-492b-b5e4-516866b724fc",
-            "ItemViewCommand",
-            "/item view",
-            "Loja: Veja todas as informações de um item.",
-            38
-        ],
-        [
-            8,
-            "ad27a98e-ff1d-485a-987e-85ff448ee7b8",
-            "BalanceCommand",
-            "/balance",
-            "Economia: Veja quantos quartzos, a moeda do bot, você tem na sua conta.",
-            27
-        ],
-        [
-            9,
-            "951762f7-aeaf-4b66-831b-92b8f10888f1",
-            "DailyCommand",
-            "/daily",
-            "Economia: Pegue seus quartzos diários de graça.",
-            3
-        ],
-        [
-            10,
-            "4e289ff3-f6d0-49d9-b57d-47500d47f4c0",
-            "RaffleCommand",
-            "/rifa",
-            "Economia: Aposte seus quartzos em uma rifa diária.",
-            6
-        ],
-        [
-            11,
-            "adb96986-8a00-4d31-b4b5-c9c104a58fea",
-            "ShopCommand",
-            "/shop",
-            "Loja: Acesse a loja completa e gaste seus quartzos!",
-            39
-        ],
-        [
-            12,
-            "5cab4e92-6e08-4880-b91e-c235fd79560f",
-            "CoinflipCommand",
-            "/coinflip",
-            "Social: Cara ou coroa?",
-            28
-        ],
-        [
-            14,
-            "efeb08f9-f8e2-4850-a89f-55d79162418e",
-            "RandomCatCommand",
-            "/cat",
-            "Diversão: Tá triste? Use este comando e veja a foto de um gatinho!",
-            26
-        ],
-        [
-            15,
-            "96eb368f-2dd6-4a5d-aae0-a2330fcafcf9",
-            "RandomDogCommand",
-            "/dog",
-            "Diversão: Tá triste? Use este comando e veja a foto de um doguinho!",
-            41
-        ],
-        [
-            16,
-            "4e96a3f9-abe2-40a3-b036-b407022fc720",
-            "RollDicesCommand",
-            "/roll",
-            "Diversão: Role dados no chat do seu servidor! ",
-            2
-        ],
-        [
-            17,
-            "9d038074-462c-471a-b0d2-ca0f3f9bc817",
-            "IdleBuildCommand",
-            "/idle build",
-            "Idle Diamond Simulator: Compre as construções necessárias para passar de nível.",
-            8
-        ],
-        [
-            18,
-            "4565ab56-bb9c-4704-bc0c-0ef4aeab1bee",
-            "IdleHelpCommand",
-            "/idle help",
-            "Idle Diamond Simulator: Acesse o tutorial completo do mini-game.",
-            45
-        ],
-        [
-            19,
-            "9d83b4e5-8aa2-49c2-a561-9ad860f8e789",
-            "IdleInfoCommand",
-            "/idle info",
-            "Idle Diamond Simulator: Veja suas estatísticas no mini-game.",
-            9
-        ],
-        [
-            20,
-            "30f7b41b-d75d-4678-8ad3-72d02a7c0b32",
-            "IdleNextCommand",
-            "/idle next",
-            "Idle Diamond Simulator: Avance para o próximo nível no mini-game.",
-            5
-        ],
-        [
-            21,
-            "44b81ca2-50cb-45d7-aaab-f8c02dcab996",
-            "IdleStartCommand",
-            "/idle start",
-            "Idle Diamond Simulator: Primeira vez? Inicie sua jornada no mini-game.",
-            10
-        ],
-        [
-            22,
-            "814736fa-8545-4e79-9aa0-eeeca4663b2d",
-            "IdleWorkCommand",
-            "/idle work",
-            "Idle Diamond Simulator: Faça as gems da sua corte trabalharem.",
+            "\/termo play",
+            "Termo",
+            "Faça o jogo de palavras diário!",
+            7210,
             1
         ],
         [
-            23,
-            "e7e4a2d6-5682-4b1d-a520-c01cf81c5de1",
-            "LastFmCollageCommand",
-            "/lastfm collage",
-            "LastFM: Gere um grid dos álbuns de música mais escutados por você.",
-            23
+            "\/idle work",
+            "Idle Diamond Simulator",
+            "Faça as gems da sua corte trabalharem.",
+            2728,
+            2
         ],
         [
-            24,
-            "1c43f61a-ada3-4718-a69f-81001085ab39",
-            "LastFmHot100Command",
-            "/lastfm hot100",
-            "LastFM: Gere uma imagem da Billboard Hot 100 com as suas músicas mais escutadas.",
-            15
+            "\/daily",
+            "Economia",
+            "Pegue seus quartzos diários de graça.",
+            2061,
+            3
         ],
         [
-            25,
-            "0bd41a6f-f589-443b-aa9c-37067e1ddcbb",
-            "LastFmLoginCommand",
-            "/lastfm login",
-            "LastFM: Cadastre sua conta no bot para liberar o restante dos comandos de música.",
-            16
-        ],
-        [
-            26,
-            "e69c48a9-4a7a-4250-91cf-23fc9f9890c2",
-            "LastFmSemaninhaCommand",
-            "/lastfm semaninha",
-            "LastFM: Ative a colagem automática toda sexta-feira com o resumo dos seus álbuns mais ouvidos.",
-            29
-        ],
-        [
-            28,
-            "f8f54293-0b03-4445-a5c7-6edd5cf22aa3",
-            "ConfigBirthdayCommand",
-            "/config birthday",
-            "Gerência: Configure os anúncios de aniversário no seu servidor.",
-            30
-        ],
-        [
-            29,
-            "6717e763-8cb3-4bff-a45b-51d87ee65acd",
-            "ConfigServerCommand",
-            "/config server",
-            "Gerência: Configure o bot no seu servidor.",
-            35
-        ],
-        [
-            30,
-            "839c2611-a008-4c21-b676-8a3190b634b1",
-            "ConfigWatercolorCommand",
-            "/config watercolor",
-            "Gerência: Configure o sistema de cargos de cores personalizadas no seu servidor.",
-            33
-        ],
-        [
-            31,
-            "755a06e5-c148-462b-9beb-cc4402945b87",
-            "ListEmojisCommand",
-            "/list emojis",
-            "Útil: Lista todos os emojis do servidor em um arquivo de texto.",
-            52
-        ],
-        [
-            32,
-            "0b546df8-cb5c-401d-9345-954f7682ba96",
-            "ListRolesCommand",
-            "/list roles",
-            "Útil: Lista todos os cargos do servidor em um arquivo de texto.",
-            49
-        ],
-        [
-            33,
-            "df53499c-d66d-45d6-b18f-b4fe97e55ff0",
-            "InventoryBannersCommand",
-            "/inventory banners",
-            "Social: Veja seu inventário de banners no bot.",
-            50
-        ],
-        [
-            34,
-            "059718c7-040e-48a7-84a3-49b352e3ffec",
-            "InventoryColorsCommand",
-            "/inventory colors",
-            "Social: Veja seu inventário de cores no bot.",
-            51
-        ],
-        [
-            35,
-            "80991a51-7cf7-4fd6-920e-1cedd8fb2b48",
-            "InventoryPinsCommand",
-            "/inventory pins",
-            "Social: Veja seu inventário de pins (broches) no bot.",
-            47
-        ],
-        [
-            36,
-            "f739cc99-c132-4f73-97c9-432437e5c40d",
-            "InventoryTitlesCommand",
-            "/inventory titles",
-            "Social: Veja seu inventário de títulos no bot.",
-            53
-        ],
-        [
-            37,
-            "ec1269f9-a258-4b48-af89-3c0ebb1921fe",
-            "RankQuartzCommand",
-            "/rank quartz",
-            "Social: Veja o ranking das pessoas mais ricas no bot.",
-            21
-        ],
-        [
-            38,
-            "eccae9de-e807-4410-a302-1a62b560d5f8",
-            "RankXpCommand",
-            "/rank xp",
-            "Social: Veja o ranking das pessoas mais tagarelas no bot.",
-            31
-        ],
-        [
-            39,
-            "7e7d992f-a762-433c-842f-f378f432691b",
-            "AboutMeCommand",
-            "/aboutme",
-            "Social: Altere sua biografia no perfil do bot.",
-            36
-        ],
-        [
-            40,
-            "e496c64f-fcbc-476a-9d8d-06902c2c2b6d",
-            "DivorceCommand",
-            "/divorce",
-            "Social: Divorcie de sua alma gêmea. Não sou responsável por essa decisão!",
-            48
-        ],
-        [
-            41,
-            "72efb8f4-f99a-40e3-b9ef-e50e692db026",
-            "MarryCommand",
-            "/marry",
-            "Social: Case-se com o amor da sua vida pelo Discord!",
-            44
-        ],
-        [
-            42,
-            "7a90c046-094e-4dde-8ad5-0f55afef1a6f",
-            "ProfileCommand",
-            "/profile",
-            "Social: Veja seu perfil no bot, com suas informações e estilo altamente customizável.",
+            "\/idle build",
+            "Idle Diamond Simulator",
+            "Compre as construções necessárias para passar de nível.",
+            802,
             4
         ],
         [
-            43,
-            "c21a6699-ebb0-4d3c-8245-01e1c30c3c33",
-            "TermoPlayCommand",
-            "/termo play",
-            "Termo: Faça o jogo de palavras diário!",
-            0
+            "\/birthday register",
+            "Aniversário",
+            "Cadastre seu aniversário no bot para que ele seja anunciado nos servidores.",
+            666,
+            5
         ],
         [
-            44,
-            "a8d4ee8d-052f-403f-b6bb-f5134b548cb0",
-            "TermoShareCommand",
-            "/termo share",
-            "Termo: Compartilhe seu desempenho no jogo de hoje.",
+            "\/roll",
+            "Diversão",
+            "Role dados no chat do seu servidor!",
+            551,
+            6
+        ],
+        [
+            "\/termo share",
+            "Termo",
+            "Compartilhe seu desempenho no jogo de hoje.",
+            513,
+            7
+        ],
+        [
+            "\/idle info",
+            "Idle Diamond Simulator",
+            "Veja suas estatísticas no mini-game.",
+            425,
+            8
+        ],
+        [
+            "\/profile",
+            "Social",
+            "Veja seu perfil no bot, com suas informações e estilo altamente customizável.",
+            352,
+            9
+        ],
+        [
+            "\/birthday list",
+            "Aniversário",
+            "Veja os aniversários de todos os membros do seu servidor.",
+            223,
+            10
+        ],
+        [
+            "\/avatar",
+            "Discord",
+            "Veja o avatar de um usuário.",
+            165,
             11
         ],
         [
-            45,
-            "7fd82f95-7575-482b-9306-476033a73414",
-            "TermoStatsCommand",
-            "/termo stats",
-            "Termo: Veja as estatísticas de todos os seus jogos.",
-            14
+            "\/lastfm collage",
+            "LastFM",
+            "Gere um grid dos álbuns de música mais escutados por você.",
+            162,
+            12
         ],
         [
-            46,
-            "ede8dcf4-4cbf-4b60-a111-df88864bade5",
-            "TermoSuggestCommand",
-            "/termo suggest",
-            "Termo: Sugira uma palavra para entrar no banco de dados do jogo.",
-            40
-        ],
-        [
-            47,
-            "1bc7e216-d84e-4d1f-bd73-0a65cfa3832d",
-            "BotInfoCommand",
-            "/bot info",
-            "Jasper: Veja informações gerais do bot.",
-            24
-        ],
-        [
-            48,
-            "288412c2-598c-4fac-81a6-a073331fcc17",
-            "ChooseCommand",
-            "/choose",
-            "Útil: Faça-me escolher uma entre diversas opções fornecidas por você. Basta separá-las por vírgula.",
-            43
-        ],
-        [
-            49,
-            "9b15acbc-1c6f-4334-b1be-eb6ff5bccf22",
-            "PingCommand",
-            "/ping",
-            "Jasper: Pong!",
-            54
-        ],
-        [
-            50,
-            "070461a8-8a4c-4178-bd71-aee1c2c32b84",
-            "RedeemCommand",
-            "/redeem",
-            "Social: Resgate algum prêmio no bot a partir de um código especial!",
-            42
-        ],
-        [
-            51,
-            "1d667c63-7f42-45f3-a4aa-aa2db840d90e",
-            "TextBoldCommand",
-            "/text bold",
-            "Útil: Transforme um texto normal em uma fonte de letras em negrito.",
-            56
-        ],
-        [
-            52,
-            "39b346c4-f4f4-44ef-bc3d-a1b4be6640b1",
-            "TextCursiveCommand",
-            "/text cursive",
-            "Útil: Transforme um texto normal em uma fonte de letras cursivas.",
-            55
-        ],
-        [
-            53,
-            "851196e2-78c6-4114-9d2b-549d9abc1c6d",
-            "BirthdayListCommand",
-            "/birthday list",
-            "Aniversário: Veja os aniversários de todos os membros do seu servidor.",
+            "\/rank termo",
+            "Social",
+            "Veja o ranking das pessoas que mais jogaram o Termo.",
+            140,
             13
         ],
         [
-            54,
-            "18580159-a469-4d9c-81f3-b12e6f87f1c3",
-            "BirthdayNextCommand",
-            "/birthday next",
-            "Aniversário: Veja quem é o próximo aniversariante do seu servidor.",
+            "\/item equip",
+            "Social",
+            "Equipe um item do seu inventário.",
+            131,
+            14
+        ],
+        [
+            "\/coinflip",
+            "Diversão",
+            "Cara ou coroa?",
+            116,
+            15
+        ],
+        [
+            "\/lastfm semaninha",
+            "LastFM",
+            "Ative a colagem automática toda sexta-feira com o resumo dos seus álbuns mais ouvidos.",
+            114,
+            16
+        ],
+        [
+            "\/idle next",
+            "Idle Diamond Simulator",
+            "Avance para o próximo nível no mini-game.",
+            111,
             17
         ],
         [
-            55,
-            "fca6a47b-b385-4dad-8c07-12124de4cffa",
-            "BotStatsCommand",
-            "/bot stats",
-            "Jasper: Veja estatísticas gerais do bot.",
-            30
-        ],
-        [
-            56,
-            "1c3b506c-b25f-4fba-ac80-e2e1230cf3b5",
-            "RankTermoCommand",
-            "/rank termo",
-            "Social: Veja o ranking das pessoas que mais jogaram o Termo.",
+            "\/termo stats",
+            "Termo",
+            "Veja as estatísticas de todos os seus jogos.",
+            108,
             18
         ],
         [
-            57,
-            "56fed5df-119c-41a3-a50c-ec987ea2ad9b",
-            "LiarsPlayCommand",
-            "/liars play",
-            "Liars': Jogue uma partida de cartas no bar dos mentirosos.",
+            "\/balance",
+            "Economia",
+            "Veja quantos quartzos, a moeda do bot, você tem na sua conta.",
+            100,
+            19
+        ],
+        [
+            "\/lastfm login",
+            "LastFM",
+            "Cadastre sua conta no bot para liberar o restante dos comandos de música.",
+            95,
+            20
+        ],
+        [
+            "\/rank quartz",
+            "Social",
+            "Veja o ranking das pessoas mais ricas no bot.",
+            87,
+            21
+        ],
+        [
+            "\/lastfm hot100",
+            "LastFM",
+            "Gere uma imagem da Billboard Hot 100 com as suas músicas mais escutadas.",
+            79,
+            22
+        ],
+        [
+            "\/pet cat",
+            "Diversão",
+            "Tá triste? Use este comando e veja a foto de um gatinho!",
+            69,
+            23
+        ],
+        [
+            "\/termo suggest",
+            "Termo",
+            "Sugira uma palavra para entrar no banco de dados do jogo.",
+            58,
+            24
+        ],
+        [
+            "\/item view",
+            "Loja",
+            "Veja todas as informações de um item.",
+            50,
+            25
+        ],
+        [
+            "\/item buy",
+            "Loja",
+            "Compre um item da lojinha utilizando seus quartzos.",
+            48,
+            26
+        ],
+        [
+            "\/idle start",
+            "Idle Diamond Simulator",
+            "Primeira vez? Inicie sua jornada no mini-game.",
+            46,
+            27
+        ],
+        [
+            "\/bot info",
+            "Jasper",
+            "Veja informações gerais do bot.",
+            43,
+            28
+        ],
+        [
+            "\/bot stats",
+            "Jasper",
+            "Veja estatísticas gerais do bot.",
+            42,
+            29
+        ],
+        [
+            "\/rank xp",
+            "Social",
+            "Veja o ranking das pessoas mais tagarelas no bot.",
+            41,
+            30
+        ],
+        [
+            "\/birthday cake",
+            "Aniversário",
+            "Dê o seu primeiro pedaço de bolo a alguém especial no seu aniversário.",
+            38,
+            31
+        ],
+        [
+            "\/aboutme",
+            "Social",
+            "Altere sua biografia no perfil do bot.",
+            36,
+            32
+        ],
+        [
+            "\/birthday next",
+            "Aniversário",
+            "Veja quem é o próximo aniversariante do seu servidor.",
+            35,
+            33
+        ],
+        [
+            "\/pet dog",
+            "Diversão",
+            "Tá triste? Use este comando e veja a foto de um doguinho!",
+            35,
+            34
+        ],
+        [
+            "\/shop",
+            "Loja",
+            "Acesse a loja completa e gaste seus quartzos!",
+            31,
+            35
+        ],
+        [
+            "\/userinfo",
+            "Discord",
+            "Veja informações da conta de um usuário.",
+            30,
+            36
+        ],
+        [
+            "\/liars play",
+            "Liars'",
+            "Jogue uma partida de cartas no bar dos mentirosos.",
+            28,
+            37
+        ],
+        [
+            "\/redeem",
+            "Social",
+            "Resgate algum prêmio no bot a partir de um código especial!",
+            26,
+            38
+        ],
+        [
+            "\/choose",
+            "Útil",
+            "Faça-me escolher uma entre diversas opções fornecidas por você. Basta separá-las por vírgula.",
+            22,
+            39
+        ],
+        [
+            "\/inventory banners",
+            "Social",
+            "Veja seu inventário de banners no bot.",
+            18,
+            40
+        ],
+        [
+            "\/inventory pins",
+            "Social",
+            "Veja seu inventário de pins (broches) no bot.",
+            18,
             41
         ],
         [
-            58,
-            "ff4c8bcb-d0d0-46a7-9a38-cbb25f38cfa1",
-            "LiarsHelpCommand",
-            "/liars help",
-            "Liars': Acesse o tutorial completo do mini-game.",
+            "\/idle help",
+            "Idle Diamond Simulator",
+            "Acesse o tutorial completo do mini-game.",
+            17,
+            42
+        ],
+        [
+            "\/inventory colors",
+            "Social",
+            "Veja seu inventário de cores no bot.",
+            16,
+            43
+        ],
+        [
+            "\/marry",
+            "Social",
+            "Case-se com o amor da sua vida pelo Discord!",
+            15,
+            44
+        ],
+        [
+            "\/inventory titles",
+            "Social",
+            "Veja seu inventário de títulos no bot.",
+            11,
+            45
+        ],
+        [
+            "\/text cursive",
+            "Útil",
+            "Transforme um texto normal em uma fonte de letras cursivas.",
+            11,
             46
+        ],
+        [
+            "\/divorce",
+            "Social",
+            "Divorcie de sua alma gêmea. Não sou responsável por essa decisão!",
+            10,
+            47
+        ],
+        [
+            "\/liars help",
+            "Liars'",
+            "Acesse o tutorial completo do mini-game.",
+            10,
+            48
+        ],
+        [
+            "\/ping",
+            "Jasper",
+            "Pong!",
+            7,
+            49
+        ],
+        [
+            "\/list roles",
+            "Útil",
+            "Lista todos os cargos do servidor em um arquivo de texto.",
+            6,
+            50
+        ],
+        [
+            "\/config",
+            "Gerência",
+            "Configure o bot no seu servidor.",
+            5,
+            51
+        ],
+        [
+            "\/list emojis",
+            "Útil",
+            "Lista todos os emojis do servidor em um arquivo de texto.",
+            3,
+            52
+        ],
+        [
+            "\/rifa info",
+            "Economia",
+            "Veja o prêmio acumulado da rifa da semana e quando ela fecha.",
+            3,
+            53
+        ],
+        [
+            "\/text bold",
+            "Útil",
+            "Transforme um texto normal em uma fonte de letras em negrito.",
+            2,
+            54
+        ],
+        [
+            "\/rifa buy",
+            "Economia",
+            "Compre tickets para apostar seus quartzos na rifa da semana.",
+            1,
+            55
         ]
     ]
 }

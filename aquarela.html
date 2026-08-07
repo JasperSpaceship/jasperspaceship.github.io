@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
-    <script src="./public/js/index.js"></script>
     <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
 
     <title>Aquarela de Cargos • Jasper Bot Website</title>
 </head>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-
-<script>
-    $(function () {
-        $("#header").load("./public/header.html");
-        $("#footer").load("./public/footer.html");
-    });
-</script>
 
 <body>
     <div id="header"></div>
@@ -45,17 +45,17 @@
             <b>1.</b> Use o comando <span class="command">/config watercolor</span> e escolha o canal de texto que
             preferir. Eu recomendo criar um canal só para isso, mas a decisão é sua.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/aquarela_1.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/aquarela_1.png" alt="">
             <br>
             <b>2.</b> Depois de usar o comando e eu te confirmar que deu certo, a funcionalidade já vai estar ativada no
             seu servidor! Prático, né?
             <br>
-            <img class="message" src="./public/assets/images/screenshots/aquarela_2.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/aquarela_2.png" alt="">
             <br>
             <b>3.</b> Também vou mandar uma mensagem de confirmação no canal escolhido, avisando que todas as mensagens
             ali vão servir pra definir a cor do cargo dos membros.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/aquarela_3.png">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/aquarela_3.png" alt="">
             <br>
             <b>4.</b> Para utilizar a <b>Aquarela</b>, você deverá enviar um <a href="https://g.co/kgs/k8xMc1V">código
                 hexadecimal</a> (exemplo: #fcba03) no canal de texto.
@@ -67,19 +67,19 @@
             Se você já tiver um cargo de cor e mandar outro código, a cor do cargo vai ser atualizada com o novo código.
             atualizada para o código mais recente.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/aquarela_4.gif">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/aquarela_4.gif" alt="">
             <br>
             <b>5.</b> Prontinho! A <b>Aquarela</b> já está habilitada no servidor. Para editar as configurações, basta
             usar o comando <span class="command">/config watercolor</span> novamente. Para desabilitar, use o comando
             <span class="command">/config server</span> e selecione o botão.
             <br>
-            <img class="message" src="./public/assets/images/screenshots/aquarela_5.gif">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/aquarela_5.gif" alt="">
         </p>
         <hr>
         <div class="subtitle">
             <br>
             ∎ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
-                href="https://discord.gg/VpsV5t4KWz">canal de suporte</a>.
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
             <br><br>
             <hr>
             <br>
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-    <div id="footer" style="margin-top: 140px;"></div>
+    <div id="footer"></div>
 </body>
 
-</html>
+</html>

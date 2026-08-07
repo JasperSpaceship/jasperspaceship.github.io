@@ -4,23 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
     <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
     <title>Lojinha • Jasper Bot Website</title>
 </head>
 
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-
-<script>
-    $(function () {
-        $("#header").load("./public/header.html");
-        $("#footer").load("./public/footer.html");
-    });
-</script>
-
 <body>
-    <header id="header"></header>
+    <div id="header"></div>
 
     <div id="container" class="container">
         <img src="./public/assets/images/headers/shop.png" alt="Header Shop" class="logo">
@@ -29,7 +32,8 @@
             ∎ Confira todos os itens disponíveis para gastar seus quartzos e deixe seu
             <span class="command">/profile</span> a sua cara!
             <br><br>
-            ∎ Aperte o botão do tipo de item desejado e <b>CLIQUE NO ITEM</b> para copiar o comando de compra.
+            ∎ Aperte o botão do tipo de item desejado e <b>CLIQUE NO ITEM</b> para copiá-lo. Depois use
+            <span class="command">/item buy</span> no Discord, cole no campo do item e selecione a opção que aparecer.
         </div>
 
         <div class="button-container">
@@ -40,7 +44,7 @@
         </div>
 
         <div class="sort-container">
-            <select id="sort" onchange="sortItems()">
+            <select id="sort" onchange="sortItems()" aria-label="Ordenar itens">
                 <option value="price">Ordem de Preço</option>
                 <option value="alphabetical">Ordem Alfabética (Nome)</option>
                 <option value="collection">Ordem Alfabética (Coleção)</option>
@@ -50,9 +54,8 @@
         <div id="shop"></div>
     </div>
 
-    <footer id="footer"></footer>
+    <div id="footer"></div>
 
-    <script src="./public/js/index.js"></script>
 </body>
 
 </html>
