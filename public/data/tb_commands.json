@@ -4,28 +4,28 @@
             "\/termo play",
             "Termo",
             "Faça o jogo de palavras diário!",
-            7210,
+            7223,
             1
         ],
         [
             "\/idle work",
             "Idle Diamond Simulator",
             "Faça as gems da sua corte trabalharem.",
-            2728,
+            2788,
             2
         ],
         [
             "\/daily",
             "Economia",
             "Pegue seus quartzos diários de graça.",
-            2061,
+            2068,
             3
         ],
         [
             "\/idle build",
             "Idle Diamond Simulator",
             "Compre as construções necessárias para passar de nível.",
-            802,
+            848,
             4
         ],
         [
@@ -39,7 +39,7 @@
             "\/roll",
             "Diversão",
             "Role dados no chat do seu servidor!",
-            551,
+            552,
             6
         ],
         [
@@ -53,14 +53,14 @@
             "\/idle info",
             "Idle Diamond Simulator",
             "Veja suas estatísticas no mini-game.",
-            425,
+            440,
             8
         ],
         [
             "\/profile",
             "Social",
             "Veja seu perfil no bot, com suas informações e estilo altamente customizável.",
-            352,
+            353,
             9
         ],
         [
@@ -95,7 +95,7 @@
             "\/item equip",
             "Social",
             "Equipe um item do seu inventário.",
-            131,
+            132,
             14
         ],
         [
@@ -116,7 +116,7 @@
             "\/idle next",
             "Idle Diamond Simulator",
             "Avance para o próximo nível no mini-game.",
-            111,
+            113,
             17
         ],
         [
@@ -130,7 +130,7 @@
             "\/balance",
             "Economia",
             "Veja quantos quartzos, a moeda do bot, você tem na sua conta.",
-            100,
+            101,
             19
         ],
         [
@@ -158,7 +158,7 @@
             "\/pet cat",
             "Diversão",
             "Tá triste? Use este comando e veja a foto de um gatinho!",
-            69,
+            70,
             23
         ],
         [
@@ -172,14 +172,14 @@
             "\/item view",
             "Economia",
             "Veja todas as informações de um item.",
-            50,
+            54,
             25
         ],
         [
             "\/item buy",
             "Economia",
             "Compre um item da lojinha utilizando seus quartzos.",
-            48,
+            53,
             26
         ],
         [
@@ -207,7 +207,7 @@
             "\/rank xp",
             "Social",
             "Veja o ranking das pessoas mais tagarelas no bot.",
-            41,
+            42,
             30
         ],
         [
@@ -344,30 +344,30 @@
             49
         ],
         [
-            "\/list roles",
+            "\/config",
             "Gerência",
-            "Lista todos os cargos do servidor em um arquivo de texto.",
+            "Configure o bot no seu servidor.",
             6,
             50
         ],
         [
-            "\/config",
+            "\/list roles",
             "Gerência",
-            "Configure o bot no seu servidor.",
-            5,
+            "Lista todos os cargos do servidor em um arquivo de texto.",
+            6,
             51
-        ],
-        [
-            "\/list emojis",
-            "Gerência",
-            "Lista todos os emojis do servidor em um arquivo de texto.",
-            3,
-            52
         ],
         [
             "\/rifa info",
             "Economia",
             "Veja o prêmio acumulado da rifa da semana e quando ela fecha.",
+            5,
+            52
+        ],
+        [
+            "\/list emojis",
+            "Gerência",
+            "Lista todos os emojis do servidor em um arquivo de texto.",
             3,
             53
         ],
