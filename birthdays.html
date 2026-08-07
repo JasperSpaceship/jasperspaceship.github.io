@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.cdnfonts.com">
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
-    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -26,64 +26,79 @@
     <div id="header"></div>
 
     <div class="container">
-        <img src="./public/assets/images/headers/birthdays.png" alt="Header Birthdays" class="logo">
+        <img src="./public/assets/images/headers/birthdays.png" alt="Locutor de Aniversários" class="logo">
 
         <div class="subtitle">
-            ∎ <b>Locutor de Aniversários</b> é minha função especial pra anunciar o aniversário dos membros do seu
+            ➥ <b>Locutor de Aniversários</b> é minha função especial pra anunciar o aniversário dos membros do seu
             servidor quando chegar a hora. Bem direto ao ponto, né?
             <br><br>
-            Os membros precisam ter registrado os aniversários com o comando <span class="command">/birthday
+            ➥ Os membros precisam ter registrado os aniversários com o comando <span class="command">/birthday
                 register</span> antes de eu poder anunciar.
             <br><br>
-            ∎ Configurar essa funcionalidade é algo restrito aos membros do servidor com permissão de
+            ➥ Configurar essa funcionalidade é algo restrito aos membros do servidor com permissão de
             <b>Administrador</b>.
             <br><br>
-            ∎ Segue um pequeno tutorial de como configurá-lo:
+            ➥ Segue um pequeno tutorial de como configurá-lo:
         </div>
         <br>
         <hr>
         <p>
             <br>
-            <b>1.</b> Use o comando <span class="command">/config birthday</span>, escolha o canal de texto onde quer
-            que os aniversários apareçam, e configure as opções adicionais se quiser: cargo de
-            aniversariante, cargo de menção, e uma mensagem personalizada.
+            <b>1.</b> Use o comando <span class="command">/config</span>. Vou abrir o <b>Painel de Configuração do
+                Servidor</b>, com uma seção para cada funcionalidade que dá pra ligar por ali. Clique no botão
+            <b>Ver</b> da seção <b>Locutor de Aniversários</b>.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_1.png"
+                alt="Painel de Configuração do Servidor, com uma seção e um botão Ver para cada funcionalidade">
+            <br>
+            <b>2.</b> Dentro da seção você enxerga se ela está habilitada, quais opções estão valendo e um botão
+            <b>Ver tutorial completo</b>, que traz você de volta pra esta página. Se for a primeira vez, clique em
+            <b>Habilitar</b>; se não, você pode editar as opções existentes.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_2.png"
+                alt="Seção do Locutor de Aniversários aberta, mostrando o status, as opções e os botões Editar e Desabilitar">
+            <br>
+            <b>3.</b> Vou abrir um formulário com quatro campos. Só o primeiro é obrigatório:
             <br><br>
-            Se você não colocar nenhuma mensagem personalizada, vou usar frases aleatórias pré-definidas em suas
-            mensagens. É até mais legal, né?
+            ▸ <b>Canal de anúncio:</b> o ID do canal de texto onde os aniversários devem aparecer.
+            <br><br>
+            ▸ <b>Cargo de aniversariante</b> (opcional): o cargo que eu entrego no dia e tiro <b>24 horas</b> depois.
+            Eu preciso de <b>Gerenciar cargos</b> e o cargo tem que estar abaixo do meu na hierarquia. Se não estiver, o
+            próprio formulário te avisa na hora em vez de falhar calado depois.
+            <br><br>
+            ▸ <b>Cargo de menção</b> (opcional): quem eu marco junto do anúncio, pra avisar o pessoal.
+            <br><br>
+            ▸ <b>Mensagem personalizada</b> (opcional): o texto do anúncio, com até <b>180 caracteres</b>. Sem nada
+            aqui, eu uso frases aleatórias pré-definidas. É até mais legal, né?
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_3.png"
+                alt="Formulário de configuração do Locutor de Aniversários, com o canal de anúncio obrigatório e três campos opcionais">
             <br>
-            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_1.png" alt="">
+            <b>4.</b> Enviado o formulário, a função já está ativada! Agora é apenas aguardar até que algum membro do
+            seu servidor faça aniversário. Os aniversários são sempre anunciados à meia-noite do horário de Brasília.
             <br>
-            <b>2.</b> Depois de usar o comando e eu confirmar que deu tudo certo, a função já vai estar ativada no
-            servidor!
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_4.png"
+                alt="Anúncio de aniversário publicado pela Jasper no canal configurado">
             <br>
-            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_2.png" alt="">
-            <br>
-            <b>3.</b> Prontinho! Agora é apenas aguardar até que algum membro do seu servidor faça aniversário. Os
-            aniversários são sempre anunciados à meia-noite do horário de Brasília.
-            <br>
-            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_3.png" alt="">
-            <br>
-            <b>4.</b> Para editar as configurações, basta usar o comando <span class="command">/config birthday</span>
-            novamente. Para desabilitar, use o comando
-            <span class="command">/config server</span> e selecione o botão.
-            <br>
-            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_4.gif" alt="">
-            <br>
-            <b>5.</b> Ah, e não esquece de lembrar o pessoal de registrar a data de aniversário com <span
+            <b>5.</b> Pra mudar alguma coisa depois, volte no <span class="command">/config</span>, clique em
+            <b>Ver</b> e depois em <b>Editar</b>. Pra desligar, use o botão <b>Desabilitar</b> na mesma seção.
+            <br><br>
+            Desabilitar não joga fora o que você configurou: quando quiser ligar de novo, o botão <b>Habilitar</b>
+            reaproveita tudo e não te pede o formulário outra vez.
+            <br><br>
+            <b>6.</b> Ah, e não esquece de lembrar o pessoal de registrar a data de aniversário com <span
                 class="command">/birthday register</span>. Cada membro só pode alterar a data a cada <b>180 dias</b>,
             então é bom pensar duas vezes antes de mandar qualquer coisa errada.
             <br>
-            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_5.png" alt="">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/birthdays_6.png"
+                alt="Formulário de registro de aniversário do comando /birthday register">
         </p>
         <hr>
         <div class="subtitle">
             <br>
-            ∎ Espero que você se aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+            ➥ Espero que você se aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
                 href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
             <br><br>
             <hr>
             <br>
-            <i>Publicado <span class="timestamp">9 de novembro de 2024</span>. Dependendo da data de publicação, o texto
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
                 pode estar levemente desatualizado.</i>
         </div>
     </div>
@@ -91,4 +106,4 @@
     <div id="footer"></div>
 </body>
 
-</html>
+</html>
