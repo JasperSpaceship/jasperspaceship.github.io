@@ -79,14 +79,14 @@
         ],
         [
             "\/lastfm collage",
-            "LastFM",
+            "Last.fm",
             "Gere um grid dos álbuns de música mais escutados por você.",
             162,
             12
         ],
         [
             "\/rank termo",
-            "Social",
+            "Termo",
             "Veja o ranking das pessoas que mais jogaram o Termo.",
             140,
             13
@@ -107,7 +107,7 @@
         ],
         [
             "\/lastfm semaninha",
-            "LastFM",
+            "Last.fm",
             "Ative a colagem automática toda sexta-feira com o resumo dos seus álbuns mais ouvidos.",
             114,
             16
@@ -135,21 +135,21 @@
         ],
         [
             "\/lastfm login",
-            "LastFM",
+            "Last.fm",
             "Cadastre sua conta no bot para liberar o restante dos comandos de música.",
             95,
             20
         ],
         [
             "\/rank quartz",
-            "Social",
+            "Economia",
             "Veja o ranking das pessoas mais ricas no bot.",
             87,
             21
         ],
         [
             "\/lastfm hot100",
-            "LastFM",
+            "Last.fm",
             "Gere uma imagem da Billboard Hot 100 com as suas músicas mais escutadas.",
             79,
             22
@@ -170,14 +170,14 @@
         ],
         [
             "\/item view",
-            "Loja",
+            "Economia",
             "Veja todas as informações de um item.",
             50,
             25
         ],
         [
             "\/item buy",
-            "Loja",
+            "Economia",
             "Compre um item da lojinha utilizando seus quartzos.",
             48,
             26
@@ -191,14 +191,14 @@
         ],
         [
             "\/bot info",
-            "Jasper",
+            "Útil",
             "Veja informações gerais do bot.",
             43,
             28
         ],
         [
             "\/bot stats",
-            "Jasper",
+            "Útil",
             "Veja estatísticas gerais do bot.",
             42,
             29
@@ -240,7 +240,7 @@
         ],
         [
             "\/shop",
-            "Loja",
+            "Economia",
             "Acesse a loja completa e gaste seus quartzos!",
             31,
             35
@@ -254,14 +254,14 @@
         ],
         [
             "\/liars play",
-            "Liars'",
+            "Liar's Deck",
             "Jogue uma partida de cartas no bar dos mentirosos.",
             28,
             37
         ],
         [
             "\/redeem",
-            "Social",
+            "Útil",
             "Resgate algum prêmio no bot a partir de um código especial!",
             26,
             38
@@ -331,21 +331,21 @@
         ],
         [
             "\/liars help",
-            "Liars'",
+            "Liar's Deck",
             "Acesse o tutorial completo do mini-game.",
             10,
             48
         ],
         [
             "\/ping",
-            "Jasper",
+            "Útil",
             "Pong!",
             7,
             49
         ],
         [
             "\/list roles",
-            "Útil",
+            "Gerência",
             "Lista todos os cargos do servidor em um arquivo de texto.",
             6,
             50
@@ -359,7 +359,7 @@
         ],
         [
             "\/list emojis",
-            "Útil",
+            "Gerência",
             "Lista todos os emojis do servidor em um arquivo de texto.",
             3,
             52
