@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.cdnfonts.com">
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
-    <link rel="icon" type="image/x-icon" href="./public/assets/images/logo/jasper_icon.png">
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -29,48 +29,65 @@
         <img src="./public/assets/images/headers/policy.png" alt="Header Privacy Policy" class="logo">
 
         <div class="subtitle">
-            A Jasper coleta apenas informações essenciais para o funcionamento adequado de suas funcionalidades. Nenhum
-            dado seu ou
-            do seu servidor é armazenado sem a devida autorização. Esta política de privacidade descreve as informações
-            coletadas e
-            como elas são utilizadas.
-            <br>
-            <br>
+            ➥ A Jasper guarda apenas o que precisa para as funcionalidades funcionarem. Nada seu ou do seu servidor é
+            armazenado sem que você tenha usado o comando correspondente. Esta página descreve o que fica guardado e
+            para quê.
+            <br><br>
             <hr>
             <br>
-            A Jasper armazena dados mínimos necessários para operar suas funcionalidades. Aqui está uma lista das
-            informações que podem ser armazenadas:
-            <br>
-            <br>
-            <ul>
-                <li><b>Dados de execução de comandos:</b> São guardados o ID do autor do comando, o timestamp de
-                    execução e
-                    o ID do servidor onde o comando foi executado.</li>
-                <li><b>Timestamp da última mensagem enviada:</b> Utilizado exclusivamente para calcular o tempo entre
-                    duas
-                    mensagens e atribuir uma quantidade de XP adequada ao usuário.</li>
-                <li><b>Dados de servidores:</b> Informações como IDs de cargos e canais de texto necessários para
-                    funcionalidades específicas, como o <a href="./birthdays">Locutor de
-                        Aniversários</a> e <a href="./aquarela">Aquarela de Cargos</a>.</li>
-            </ul>
-            <br>
+            <b>O que eu guardo sobre você</b>
+            <br><br>
+            ➥ <b>Execução de comandos:</b> o ID de quem usou, o ID do servidor e o horário. Serve para o histórico de
+            uso e para saber quais comandos valem a pena manter.
+            <br><br>
+            ➥ <b>Horário da sua última mensagem:</b> só o horário, nunca o texto. É o que me permite calcular o
+            intervalo entre duas mensagens e dar <b>XP</b> na medida.
+            <br><br>
+            ➥ <b>Seu perfil:</b> quartzos, XP, os itens que você comprou e os que estão equipados, e a bio que você
+            escreve no <span class="command">/aboutme</span> (até 280 caracteres). Veja mais na página de
+            <a href="./economia">Economia</a>.
+            <br><br>
+            ➥ <b>Sua data de aniversário:</b> apenas <b>dia e mês</b>, se você registrar com
+            <span class="command">/birthday register</span>. <b>Eu não guardo o ano</b>, então não sei a sua idade.
+            <br><br>
+            ➥ <b>Seu usuário do <a href="./lastfm">Last.fm</a>:</b> só o nome de usuário, se você vincular com
+            <span class="command">/lastfm login</span>. O histórico de músicas não fica guardado aqui; eu consulto a API
+            pública do Last.fm na hora de gerar cada imagem.
+            <br><br>
+            ➥ <b>Progresso nos mini-games:</b> seus palpites e resultados no <a href="./termo">Termo</a>, seu nível e
+            recursos no <a href="./idle">Idle Diamond Simulator</a>, e as cartas da sua partida de
+            <a href="./liars">Liar's Deck</a>.
+            <br><br>
+            ➥ <b>Casamento:</b> com quem você se casou e desde quando, se você usar o
+            <span class="command">/marry</span>.
+            <br><br>
             <hr>
             <br>
-            Apenas os dados essenciais para o funcionamento das funcionalidades são guardados, e o acesso a esses dados
-            é restrito às finalidades específicas descritas
-            <br>
-            <br>
-            <ul>
-                <li><b>Conteúdo de mensagens e comandos:</b> A Jasper não armazena o conteúdo das mensagens ou dos
-                    comandos
-                    executados. Não temos acesso ao conteúdo que você insere nas opções dos comandos, exceto em sistemas
-                    onde isso é necessário, como o jogo de "Termo" e outras funcionalidades específicas.</li>
-            </ul>
-            <br>
+            <b>O que eu guardo sobre o servidor</b>
+            <br><br>
+            ➥ <b>Configuração das funcionalidades:</b> IDs de canais e cargos que um administrador escolhe ao configurar
+            o <a href="./birthdays">Locutor de Aniversários</a>, a <a href="./aquarela">Aquarela de Cargos</a> e as
+            <a href="./calls">Calls Temporárias</a>. Nada disso é coletado sozinho, só existe se alguém tiver usado o
+            <span class="command">/config</span>.
+            <br><br>
             <hr>
             <br>
-            Se houver dúvidas, <a href="https://discord.gg/MV4Qh9FhCR">entre em meu servidor do Discord</a> para mais
-            esclarecimentos.
+            <b>O que eu não guardo</b>
+            <br><br>
+            ➥ <b>Conteúdo das mensagens do servidor.</b> Eu não armazeno o que as pessoas conversam. Nos canais em que
+            uma funcionalidade depende de ler a mensagem, como o canal da Aquarela, eu olho o conteúdo apenas para
+            verificar se é um código de cor válido, e não guardo o texto.
+            <br><br>
+            ➥ <b>Opções dos comandos</b>, fora dos casos em que o próprio recurso é o texto que você mandou. É o caso do
+            palpite do Termo e da bio do <span class="command">/aboutme</span>, que existem justamente para ficarem
+            guardados.
+            <br><br>
+            <hr>
+            <br>
+            ➥ Quer apagar seus dados ou tirar alguma dúvida?
+            <a href="https://discord.gg/MV4Qh9FhCR">Entre no meu servidor do Discord</a> e me chame.
+            <br><br>
+            <i>Atualizado em <span class="timestamp">7 de agosto de 2026</span>.</i>
         </div>
     </div>
 
