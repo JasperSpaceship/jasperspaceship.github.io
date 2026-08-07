@@ -1,5 +1,10 @@
 const DATA_PATH = "./public/data/";
 
+// Separar casas de milhar, igual o bot faz nas mensagens
+function formatNumber(value) {
+    return Number(value).toLocaleString("pt-BR");
+}
+
 // Escapar texto vindo do banco antes de jogar no HTML
 function escapeHtml(value) {
     return String(value)
@@ -20,7 +25,7 @@ const SHOP_TYPES = {
         fields: { name: 1, price: 3, collection: 4 },
         cells: row => [
             { html: `<b>${escapeHtml(row[1])}</b>` },
-            { html: `${escapeHtml(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
+            { html: `${formatNumber(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
             { image: row[6], alt: `Cor ${row[1]}` }
         ]
     },
@@ -33,7 +38,7 @@ const SHOP_TYPES = {
         cells: (row, collectionName) => [
             { html: `<b>${escapeHtml(row[1])}</b>` },
             { html: `<i>${escapeHtml(collectionName)}</i>` },
-            { html: `${escapeHtml(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
+            { html: `${formatNumber(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
             { image: row[2], alt: `Banner ${row[1]}` }
         ]
     },
@@ -45,7 +50,7 @@ const SHOP_TYPES = {
         cells: (row, collectionName) => [
             { html: `« <b>${escapeHtml(row[1])}</b> »` },
             { html: `<i>${escapeHtml(collectionName)}</i>` },
-            { html: `${escapeHtml(row[2])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` }
+            { html: `${formatNumber(row[2])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` }
         ]
     },
     emblemas: {
@@ -56,7 +61,7 @@ const SHOP_TYPES = {
         cells: (row, collectionName) => [
             { html: `<b>${escapeHtml(row[1])}</b>` },
             { html: `<i>${escapeHtml(collectionName)}</i>` },
-            { html: `${escapeHtml(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
+            { html: `${formatNumber(row[3])} <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos">` },
             { image: row[5], alt: `Emblema ${row[1]}` }
         ]
     }
