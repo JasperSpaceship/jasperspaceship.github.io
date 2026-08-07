@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
+    <title>Termo • Jasper Bot Website</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/termo.png" alt="Termo" class="logo">
+
+        <div class="subtitle">
+            ➥ <b>Termo</b> é meu jogo de palavras diário: todo dia eu sorteio uma palavra de <b>5 letras</b> e você tem
+            <b>6 tentativas</b> pra descobrir qual é. É o mesmo jogo pra todo mundo no mesmo dia, então dá pra comparar
+            o resultado com os amigos. É de longe o comando mais usado que eu tenho.
+            <br><br>
+            ➥ Segue um pequeno tutorial de como jogar:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Use o comando <span class="command">/termo play</span>. Vou abrir um formulário pedindo o seu
+            palpite da palavra do dia, com 5 letras.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/termo_1.png"
+                alt="Formulário do /termo play, pedindo o palpite da palavra do dia, com 5 letras">
+            <br>
+            <b>2.</b> A cada palpite eu devolvo uma imagem mostrando, letra por letra, o que você acertou de posição, o
+            que existe na palavra mas está no lugar errado, e o que não existe. Junto vem um botão dizendo quantos
+            palpites ainda restam, pra você continuar sem digitar o comando de novo.
+            <br>
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/termo_2.png"
+                alt="Jogo do Termo em andamento, com a grade de letras e o botão mostrando quantos palpites restam">
+            <br>
+            <b>3.</b> O palpite precisa ser uma palavra que eu conheça. Se eu não reconhecer, eu te aviso e você pode
+            tentar outra: <b>palavra desconhecida não gasta tentativa</b>.
+            <br><br>
+            <b>4.</b> Junto do jogo vêm mais três botões: <b>Salvar imagem para depois</b>, que te manda o resultado nas
+            mensagens diretas, <b>Ver estatísticas</b> e <b>Compartilhar este jogo</b>.
+            <br><br>
+            <b>5.</b> É <b>um jogo por dia</b>. Quando você acerta a palavra ou gasta as 6 tentativas, o jogo de hoje
+            acabou e eu te digo quando o próximo começa.
+            <br><br>
+            <b>6.</b> Depois de terminar, use <span class="command">/termo share</span> pra publicar seu desempenho no
+            canal, com a data, a quantidade de tentativas e sua posição no ranking. Como ele não mostra as letras, não
+            estraga o jogo de quem ainda não jogou.
+            <br>
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/termo_6.png"
+                alt="Resultado do /termo share, com data, tentativas e ranking">
+            <br>
+            <b>7.</b> O <span class="command">/termo stats</span> mostra o histórico de todos os seus jogos: quantos
+            você finalizou e em quantas tentativas. E o <span class="command">/rank termo</span> mostra o top de quem
+            mais jogou.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/termo_7.png"
+                alt="Resultado do /termo stats, com o histórico de todos os jogos do usuário, mostrando quantos ele finalizou e em quantas tentativas">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/rank_termo.png"
+                alt="Ranking do Termo exibido pelo /rank termo">
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ➥ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>

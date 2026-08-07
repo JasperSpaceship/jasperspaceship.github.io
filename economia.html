@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
+    <title>Economia • Jasper Bot Website</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/economy.png" alt="Economia" class="logo">
+
+        <div class="subtitle">
+            ➥ <b>Quartzos</b> <img class="emoji" src="./public/assets/images/emojis/quartz.png" alt="quartzos"> são a
+            minha moeda. Você junta usando os comandos, e gasta deixando o seu
+            <span class="command">/profile</span> com a sua cara. Esta página explica de onde eles vêm e no que dá pra
+            gastar.
+            <br><br>
+            ➥ Essa é uma moeda global, ou seja, é a mesma para todos os usuários em todos os servidores e nada aqui
+            precisa de configuração. Além disso, o que você acumula é seu, não do servidor.
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>De onde vêm os quartzos</b>
+            <br><br>
+            ▸ <span class="command">/daily</span> te dá entre <b>200 e 499</b> <img class="emoji"
+                src="./public/assets/images/emojis/quartz.png" alt="quartzos">, uma vez por dia. O contador zera à
+            meia-noite do horário de Brasília, e não a cada 24 horas, então dá pra pegar no fim de uma noite e no começo
+            da outra.
+            <br><br>
+            ▸ Ganhar a <b>rifa</b> leva o prêmio acumulado da semana inteira. É a única forma de pegar bastante quartzo
+            de uma vez só.
+            <br><br>
+            Use <span class="command">/balance</span> pra ver quanto você tem e em que posição está no ranking global.
+            <br><br>
+            <b>O perfil</b>
+            <br><br>
+            O <span class="command">/profile</span> gera uma imagem com seus quartzos, seu nível, seu aniversário, com
+            quem você é casado e o que você está ouvindo, se tiver vinculado o <a href="./lastfm">Last.fm</a>. O nível
+            vem do <b>XP</b>, que sobe sozinho conforme você conversa, sem gastar nada e sem comando nenhum.
+            <br><br>
+            É ele que você personaliza com o que compra: dá pra trocar a cor, o banner, o emblema e o título. Use
+            <span class="command">/aboutme</span> pra escrever sua bio, de até <b>280 caracteres</b>.
+        <div class="gallery">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/profile_example_1.png"
+                alt="Exemplo de perfil 1">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/profile_example_2.png"
+                alt="Exemplo de perfil 2">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/profile_example_3.png"
+                alt="Exemplo de perfil 3">
+        </div>
+        <br>
+        <b>No que gastar</b>
+        <br><br>
+        ▸ <b>Itens de perfil:</b> São quatro tipos, organizados em coleções (<b>cores</b>, <b>emblemas</b>,
+        <b>banners</b> e <b>títulos</b>). Veja todos na <a href="./shop">Lojinha</a> aqui no site, ou pelo
+        <span class="command">/shop</span> no Discord. O <span class="command">/item view</span> mostra os detalhes
+        de um item, o <span class="command">/item buy</span> compra, e o
+        <span class="command">/item equip</span> coloca no seu perfil. Seus inventários ficam em
+        <span class="command">/inventory</span>.
+        <br><br>
+        ▸ <b>Rifa:</b> Cada ticket custa <b>100</b> <img class="emoji" src="./public/assets/images/emojis/quartz.png"
+            alt="quartzos"> e o sorteio acontece toda <b>sexta-feira às 18h</b>. Use
+        <span class="command">/rifa info</span> pra ver o prêmio acumulado e quando ela fecha, e
+        <span class="command">/rifa buy</span> pra comprar. Quanto mais tickets, mais chance.
+        <br><br>
+        ▸ <b>Casamento:</b> <span class="command">/marry</span> custa <b>2.000</b> <img class="emoji"
+            src="./public/assets/images/emojis/quartz.png" alt="quartzos"> <b>de cada um</b>, e só sai
+        se a outra pessoa aceitar. Aparece no perfil dos dois. Se não der certo,
+        <span class="command">/divorce</span> desfaz.
+        <br><br>
+        <b>Item sem gastar quartzo</b>
+        <br><br>
+        Nem tudo na sua coleção precisa ser comprado. Nos dois casos abaixo o item cai direto no seu inventário.
+        <br><br>
+        ▸ <b>Idle Diamond Simulator:</b> Cada nível que você conclui no
+        <a href="./idle">mini-game</a> te dá um emblema, um banner e um título daquele planeta.
+        <br><br>
+        ▸ <b>Códigos especiais:</b> O <span class="command">/redeem</span> resgata itens a partir de códigos que eu
+        solto de vez em quando.
+        <br><br>
+        <b>Os rankings</b>
+        <br><br>
+        <span class="command">/rank quartz</span> pra quem tem mais quartzos,
+        <span class="command">/rank xp</span> pra quem mais conversa e
+        <span class="command">/rank termo</span> pra quem joga mais <a href="./termo">Termo</a>. Todos são globais,
+        paginados, e têm um botão pra pular direto pra sua posição.
+        <div class="gallery">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/rank_quartz.png"
+                alt="Ranking de quartzos exibido pelo /rank quartz">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/rank_xp.png"
+                alt="Ranking de XP exibido pelo /rank xp">
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/rank_termo.png"
+                alt="Ranking do Termo exibido pelo /rank termo">
+        </div>
+        <br><br>
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ➥ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>

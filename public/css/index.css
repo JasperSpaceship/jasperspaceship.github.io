@@ -74,14 +74,28 @@ body {
     padding-top: 20px;
     transition: left 0.3s ease;
     z-index: 900;
+    /* São 12 itens: em tela baixa o menu precisa rolar em vez de cortar. */
+    overflow-y: auto;
 }
 
 .sidebar a {
-    padding: 14px 25px;
-    font-size: 18px;
+    padding: 11px 25px;
+    font-size: 17px;
     color: #ccc;
     text-decoration: none;
     transition: 0.2s;
+}
+
+/* Divisória das seções do menu. São 12 páginas, e sem agrupar vira uma
+   lista longa demais para se achar alguma coisa nela. */
+.sidebar-section {
+    padding: 6px 25px;
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #7a7d84;
 }
 
 .sidebar a:hover {
@@ -154,6 +168,35 @@ body {
 .table-scroll {
     overflow-x: auto;
     margin-top: 20px;
+}
+
+/* ========= TERMOS DO LIAR'S DECK ========= */
+/* As cores dos naipes vêm do LiarsSuit no bot. O verde das joias foi escurecido
+   de #00a51b para passar em contraste no card branco, que é mais claro que o
+   embed do Discord de onde a cor original veio. */
+.jewel {
+    color: #008815;
+    font-weight: bold;
+}
+
+.cookie {
+    color: #1139c7;
+    font-weight: bold;
+}
+
+.star {
+    color: #8b5fb3;
+    font-weight: bold;
+}
+
+.joker {
+    color: #ae0f6e;
+    font-weight: bold;
+}
+
+.donut {
+    color: #604830;
+    font-weight: bold;
 }
 
 /* ========= TERMOS DO IDLE ========= */
@@ -320,6 +363,19 @@ body {
     margin: 20px auto;
     width: 100%;
     height: auto;
+}
+
+/* Vários prints lado a lado, para comparar variações sem empilhar
+   três imagens altas uma embaixo da outra. */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.gallery .message {
+    margin: 0;
 }
 
 .timestamp {

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
+    <title>Last.fm • Jasper Bot Website</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/lastfm.png" alt="Last.fm" class="logo">
+
+        <div class="subtitle">
+            ➥ Se você usa o <a href="https://www.last.fm/">Last.fm</a> pra registrar o que escuta, eu consigo
+            transformar esse histórico em imagem: colagem de capas, um chart no estilo Billboard e um resumo semanal
+            que chega sozinho na sua DM.
+            <br><br>
+            ➥ Eu não coleto nada disso por conta própria. Você me diz qual é o seu usuário do Last.fm, e eu leio os
+            dados públicos que já estão lá.
+            <br><br>
+            ➥ Segue um pequeno tutorial de como usar:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Comece vinculando sua conta com <span class="command">/lastfm login</span>, passando seu nome de
+            usuário do Last.fm. Eu confiro se a conta existe antes de aceitar.
+            <br><br>
+            Depois de vincular, só é possível <b>trocar de conta a cada 30 dias</b>, então confira se digitou certo.
+            <br><br>
+            <b>2.</b> O <span class="command">/lastfm collage</span> monta uma colagem com as capas dos álbuns que você
+            mais escutou. Você escolhe:
+            <br><br>
+            ▸ <b>Tamanho:</b> de <b>3x3</b> até <b>10x10</b>, ou seja, de 9 a 100 álbuns.
+            <br><br>
+            ▸ <b>Período:</b> 7 dias, 1 mês, 3 meses, 6 meses, 12 meses ou todo o histórico da conta.
+            <br><br>
+            ▸ <b>Títulos:</b> se quiser o nome do álbum e do artista escrito em cima de cada capa, ou só as capas.
+            <br><br>
+            Junto da imagem eu mando seu artista, álbum e música mais tocados no período.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/lastfm_collage.png"
+                alt="Colagem gerada pelo /lastfm collage, com as capas dos álbuns mais escutados">
+            <br>
+            <b>3.</b> O <span class="command">/lastfm hot100</span> gera uma imagem no estilo da
+            <b>Billboard Hot 100</b> com as suas músicas mais escutadas no período que você escolher. Também dá pra
+            passar outra pessoa e ver os charts dela, desde que ela também tenha vinculado a conta.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/lastfm_hot100.png"
+                alt="Imagem no estilo Billboard Hot 100 gerada pelo /lastfm hot100">
+            <br>
+            <b>4.</b> O <span class="command">/lastfm semaninha</span> liga o resumo automático: toda
+            <b>sexta-feira</b> eu te mando nas mensagens diretas uma colagem da semana com o total de scrobbles. Use o
+            mesmo comando pra desligar.
+            <br><br>
+            Pra isso funcionar, suas DMs precisam estar abertas pra mim. E o mesmo comando controla o
+            <b>resumo anual</b>, que chega no último dia do ano.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/lastfm_semaninha.png"
+                alt="Resumo semanal que chega na DM toda sexta, com a colagem da semana e os mais tocados">
+            <br>
+            <b>5.</b> Com a conta vinculada, o seu <a href="./economia">perfil</a> ganha uma linha de música: o artista
+            e a faixa que você escutou por último. Se eu não encontrar nenhum scrobble recente, mostro no lugar o
+            artista que você mais ouviu nos <b>últimos 7 dias</b>.
+            <br><br>
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ➥ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>
