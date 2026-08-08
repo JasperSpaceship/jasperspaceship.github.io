@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
+    <title>Liar's Deck • Jasper Bot Website</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/liars.png" alt="Liar's Deck" class="logo">
+
+        <div class="subtitle">
+            ➥ <b>Liar's Deck</b> é meu mini-game de cartas e mentira, inspirado no modo de mesmo nome do
+            <a href="https://store.steampowered.com/app/3097560/Liars_Bar/">Liar's Bar</a>, que estourou no lançamento
+            em 2024. Dá pra jogar com até <b>4 pessoas</b> por partida, direto no canal de texto do seu servidor.
+            <br><br>
+            ➥ Segue um pequeno tutorial de como funciona uma partida:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Use <span class="command">/liars play</span> pra criar uma partida e esperar a galera entrar. O
+            limite é de <b>4 jogadores</b>, igual no jogo original. Quem cria pode ajustar quatro coisas:
+            <br><br>
+            ▸ <b>Tamanho da mão:</b> quantas cartas cada um recebe. O padrão é <b>5</b>.
+            <br><br>
+            ▸ <b>Curingas:</b> dá pra jogar sem eles, se você quiser uma partida mais dura.
+            <br><br>
+            ▸ <b>Ordem de jogo:</b> por padrão é a ordem de quem entrou na partida, mas dá pra embaralhar.
+            <br><br>
+            ▸ <b>Revelar o baralho:</b> mostra a todos quantas cartas de cada naipe existem na partida.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_1.png"
+                alt="Lobby de uma partida de Liar's Deck, com as configurações escolhidas e os botões de participar e iniciar">
+            <br>
+            <b>2.</b> Ao iniciar, eu distribuo o baralho. Ele tem quatro naipes:
+            <img class="emoji" src="./public/assets/images/emojis/card_jewel.png" alt=""><span
+                class="jewel">joias</span>, <img class="emoji" src="./public/assets/images/emojis/card_cookie.png"
+                alt=""><span class="cookie">biscoitos</span>,
+            <img class="emoji" src="./public/assets/images/emojis/card_star.png" alt=""><span
+                class="star">estrelas</span> e <img class="emoji" src="./public/assets/images/emojis/card_joker.png"
+                alt=""><span class="joker">coringas</span>. Cada jogador recebe <b>5 cartas</b> por padrão, mas quem
+            cria a partida
+            pode mudar isso.
+            <br><br>
+            Os três primeiros são naipes normais. O <span class="joker">coringa</span> é curinga de verdade: vale no
+            lugar de qualquer um
+            dos outros.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_2.png"
+                alt="Composição do baralho e o primeiro round, com a ordem de jogo e o naipe pedido pela mesa">
+            <br>
+            <b>3.</b> A cada round a mesa pede um <b>naipe específico</b>. Na sua vez, você joga uma carta daquele
+            naipe... ou não. <b>Minta!</b> Ninguém vê o que você jogou de verdade, a não ser que alguém duvide.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_3.png"
+                alt="Deck do jogador com as cartas na mão e a jogada feita na rodada do naipe pedido">
+            <br>
+            <b>4.</b> Você pode duvidar de quem jogou antes de você, e quem vem depois pode duvidar de você. Quando há
+            um questionamento, a carta é virada:
+            <br><br>
+            ▸ Se você mentiu, <b>você</b> come um <img class="emoji" src="./public/assets/images/emojis/donut.png"
+                alt=""><span class="donut">donut</span>.
+            <br><br>
+            ▸ Se você estava falando a verdade, <b>quem duvidou</b> come um <span class="donut">donut</span>.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_4.png"
+                alt="Alguém chamando o outro de mentiroso e a carta sendo virada, revelando a mentira">
+            <br>
+            <b>5.</b> Todo mundo começa com <b>3</b> <span class="donut">donuts</span> e é obrigado a comer um ao perder
+            um confronto. O problema é
+            que <b>um deles está envenenado, e você não sabe qual</b>. Eu mostro a sua chance de derrota antes de você
+            escolher.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_5.png"
+                alt="Escolha de qual donut comer, com a chance de derrota, e o resultado de um donut bom">
+            <br>
+            <b>6.</b> Comeu o <span class="donut">donut</span> envenenado, você morre e está fora da partida. Comeu um
+            bom, segue o jogo. Quando sobra só um donut na sua frente, a chance de derrota é de <b>100%</b> e não tem
+            escapatória.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_6.png"
+                alt="Último donut restante, com 100% de chance de derrota, e a eliminação do jogador">
+            <br>
+            A partida acaba quando resta <b>um sobrevivente</b>.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_7.png"
+                alt="Eliminação do último adversário e a tela de fim de jogo anunciando o vencedor">
+            <br>
+            <b>7.</b> Fique de olho no tempo: se alguém deixar uma interação da partida parada por mais de
+            <b>5 minutos</b>, a partida é encerrada automaticamente.
+            <br><br>
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ➥ Você pode usar o comando <span class="command">/liars help</span> no Discord para revisitar essa mensagem!
+            <br>
+            <br>
+            ➥ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>

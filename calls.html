@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gg-sans-2">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css" media="screen" />
+    <link rel="icon" type="image/png" href="./public/assets/images/logo/quartz.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./public/js/index.js" defer></script>
+    <script>
+        $(function () {
+            $("#header").load("./public/header.html");
+            $("#footer").load("./public/footer.html");
+        });
+    </script>
+
+    <title>Calls Temporárias • Jasper Bot Website</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <img src="./public/assets/images/headers/calls.png" alt="Calls Temporárias" class="logo">
+
+        <div class="subtitle">
+            ➥ <b>Calls Temporárias</b> é minha função que cria uma call de voz nova pra cada pessoa que entra num
+            canal-lobby, e apaga a call sozinha quando ela não for mais usada. Ninguém precisa pedir canal pra
+            administração, e o servidor não fica entulhado de call vazia.
+            <br><br>
+            ➥ Configurar essa função é coisa de gente com permissão de <b>Administrador</b>. E eu preciso de
+            <b>Gerenciar canais</b> pra criar e apagar as calls, e de <b>Mover membros</b> pra levar a pessoa até a call
+            dela.
+            <br><br>
+            ➥ Segue um pequeno tutorial de como configurá-la:
+        </div>
+        <br>
+        <hr>
+        <p>
+            <br>
+            <b>1.</b> Use o comando <span class="command">/config</span>. Vou abrir o <b>Painel de Configuração do
+                Servidor</b>, com uma seção para cada funcionalidade. Clique no botão <b>Ver</b> da seção
+            <b>Calls Temporárias</b> e depois em <b>Habilitar</b>.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/calls_1.png"
+                alt="Seção das Calls Temporárias aberta, mostrando canal-lobby, categoria, limite de usuários e o nome com <username>">
+            <br>
+            <b>2.</b> Vou abrir um formulário com quatro campos. Só o primeiro é obrigatório:
+            <br><br>
+            ▸ <b>Canal-lobby:</b> o ID do canal de voz que serve de porta de entrada. Quem entrar nele ganha uma call.
+            <br><br>
+            ▸ <b>Categoria das calls criadas</b> (opcional): onde as calls novas vão nascer. Se deixar em branco, uso a
+            mesma categoria do canal-lobby.
+            <br><br>
+            ▸ <b>Limite de usuários por call</b> (opcional): um número de <b>0 a 99</b>. Zero significa sem limite.
+            <br><br>
+            ▸ <b>Nome das calls criadas</b> (opcional): o texto que vira o nome do canal. Onde você escrever
+            <span class="command">&lt;username&gt;</span>, eu troco pelo nome de usuário de quem criou a call. Por
+            exemplo, <i>Sala de &lt;username&gt;</i>. Sem nada aqui, o nome da call é só o nome de usuário.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/calls_2.png"
+                alt="Formulário de configuração das Calls Temporárias, com o canal-lobby obrigatório e categoria, limite e nome opcionais">
+            <br>
+            <b>3.</b> Pronto, já está funcionando. Agora quem entrar no canal-lobby tem uma call criada na hora, e eu
+            movo a pessoa pra dentro dela automaticamente.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/calls_3.png"
+                alt="Lista de canais de voz com o lobby " Entre p/ criar sua call" e as calls criadas a partir dele">
+            <br>
+            <b>4.</b> Quem criou a call é o <b>dono</b> dela, e recebe permissões só ali dentro:
+            <b>Gerenciar canal</b>, <b>Mover membros</b>, <b>Silenciar membros</b> e <b>Ensurdecer membros</b>. Ou seja,
+            dá pra renomear, trancar e moderar a própria call sem precisar de cargo nenhum no servidor.
+            <br><br>
+            <b>5.</b> Cada pessoa tem <b>uma call por servidor</b>. Se você já tem uma aberta e entra no lobby de novo,
+            eu te movo pra sua call em vez de criar outra.
+            <br><br>
+            <b>6.</b> A call é apagada <b>5 minutos depois que o dono sai</b>. Se ele voltar antes disso, cancelo a
+            exclusão e a call continua de pé, com todo mundo que estava lá dentro.
+            <br><br>
+            <b>7.</b> Pra mudar qualquer um desses campos depois, volte no <span class="command">/config</span>, clique
+            em <b>Ver</b> e depois em <b>Editar</b>. Pra desligar, use o botão <b>Desabilitar</b> na mesma seção, que
+            preserva o que você já configurou.
+            <br><br>
+        </p>
+        <hr>
+        <div class="subtitle">
+            <br>
+            ➥ Espero que você aproveite! Qualquer dúvida, sinta-se livre para perguntar no meu <a
+                href="https://discord.gg/MV4Qh9FhCR">canal de suporte</a>.
+            <br><br>
+            <hr>
+            <br>
+            <i>Publicado <span class="timestamp">7 de agosto de 2026</span>. Dependendo da data de publicação, o texto
+                pode estar levemente desatualizado.</i>
+        </div>
+
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>
