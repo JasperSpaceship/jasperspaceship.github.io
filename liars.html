@@ -40,8 +40,18 @@
         <p>
             <br>
             <b>1.</b> Use <span class="command">/liars play</span> pra criar uma partida e esperar a galera entrar. O
-            limite é de <b>4 jogadores</b>, igual no jogo original.
+            limite é de <b>4 jogadores</b>, igual no jogo original. Quem cria pode ajustar quatro coisas:
             <br><br>
+            ▸ <b>Tamanho da mão:</b> quantas cartas cada um recebe. O padrão é <b>5</b>.
+            <br><br>
+            ▸ <b>Curingas:</b> dá pra jogar sem eles, se você quiser uma partida mais dura.
+            <br><br>
+            ▸ <b>Ordem de jogo:</b> por padrão é a ordem de quem entrou na partida, mas dá pra embaralhar.
+            <br><br>
+            ▸ <b>Revelar o baralho:</b> mostra a todos quantas cartas de cada naipe existem na partida.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_1.png"
+                alt="Lobby de uma partida de Liar's Deck, com as configurações escolhidas e os botões de participar e iniciar">
+            <br>
             <b>2.</b> Ao iniciar, eu distribuo o baralho. Ele tem quatro naipes:
             <img class="emoji" src="./public/assets/images/emojis/card_jewel.png" alt=""><span
                 class="jewel">joias</span>, <img class="emoji" src="./public/assets/images/emojis/card_cookie.png"
@@ -55,10 +65,14 @@
             Os três primeiros são naipes normais. O <span class="joker">coringa</span> é curinga de verdade: vale no
             lugar de qualquer um
             dos outros.
-            <br><br>
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_2.png"
+                alt="Composição do baralho e o primeiro round, com a ordem de jogo e o naipe pedido pela mesa">
+            <br>
             <b>3.</b> A cada round a mesa pede um <b>naipe específico</b>. Na sua vez, você joga uma carta daquele
             naipe... ou não. <b>Minta!</b> Ninguém vê o que você jogou de verdade, a não ser que alguém duvide.
-            <br><br>
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_3.png"
+                alt="Deck do jogador com as cartas na mão e a jogada feita na rodada do naipe pedido">
+            <br>
             <b>4.</b> Você pode duvidar de quem jogou antes de você, e quem vem depois pode duvidar de você. Quando há
             um questionamento, a carta é virada:
             <br><br>
@@ -66,15 +80,26 @@
                 alt=""><span class="donut">donut</span>.
             <br><br>
             ▸ Se você estava falando a verdade, <b>quem duvidou</b> come um <span class="donut">donut</span>.
-            <br><br>
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_4.png"
+                alt="Alguém chamando o outro de mentiroso e a carta sendo virada, revelando a mentira">
+            <br>
             <b>5.</b> Todo mundo começa com <b>3</b> <span class="donut">donuts</span> e é obrigado a comer um ao perder
             um confronto. O problema é
-            que <b>um deles está envenenado, e você não sabe qual</b>.
-            <br><br>
+            que <b>um deles está envenenado, e você não sabe qual</b>. Eu mostro a sua chance de derrota antes de você
+            escolher.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_5.png"
+                alt="Escolha de qual donut comer, com a chance de derrota, e o resultado de um donut bom">
+            <br>
             <b>6.</b> Comeu o <span class="donut">donut</span> envenenado, você morre e está fora da partida. Comeu um
-            bom, segue o jogo. A partida
-            acaba quando sobra <b>um sobrevivente</b>.
-            <br><br>
+            bom, segue o jogo. Quando sobra só um donut na sua frente, a chance de derrota é de <b>100%</b> e não tem
+            escapatória.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_6.png"
+                alt="Último donut restante, com 100% de chance de derrota, e a eliminação do jogador">
+            <br>
+            A partida acaba quando resta <b>um sobrevivente</b>.
+            <img class="message" loading="lazy" src="./public/assets/images/screenshots/liars_7.png"
+                alt="Eliminação do último adversário e a tela de fim de jogo anunciando o vencedor">
+            <br>
             <b>7.</b> Fique de olho no tempo: se alguém deixar uma interação da partida parada por mais de
             <b>5 minutos</b>, a partida é encerrada automaticamente.
             <br><br>
